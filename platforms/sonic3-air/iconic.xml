@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <systemLogo>./platforms/sonic3-air/images/logo-iconic.webp</systemLogo>
+    </variables>
+</theme>

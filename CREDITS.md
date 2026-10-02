@@ -22,3 +22,5 @@ Vertical system list layout and per-platform rating icons: taken from the Recalb
 Console/controller images, rating icons, band colors and system info added to platforms that lacked them (and the `bk`, `dice`, `moonlight`, `pico` and `dragon64` folders): taken from the Recalbox theme (recalbox-next v9 by Supernature2k, CC BY-NC-ND 4.0). Existing Recalboxy files were never overwritten.
 
 Platform folders now live under `platforms/`. Third-party assets from recalbox-next are kept as unmodified, separately licensed copies; see `NOTICE.md` and `THIRD-PARTY-ASSETS.txt`.
+
+Iconic logos (`platforms/*/images/logo-iconic.webp`, selectable with the "Use Vector Graphics for Logos" option set to "No"): taken from the [Iconic (ES version)](https://github.com/Delgan/iconic-es) theme by Delgan, based on Iconic (ES-DE) by Siddy212 (CC0 1.0).

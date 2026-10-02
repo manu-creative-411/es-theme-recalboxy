@@ -1,5 +1,9 @@
 # Platforms without artwork
 
+> With "Use Vector Graphics for Logos" set to "No", 70 of the platforms below get a logo
+> (`images/logo-iconic.webp`, from the Iconic theme) instead of the system name as text.
+> The other options (colors, console images...) are still the defaults.
+
 Batocera systems (`es_systems.yml`) for which the original Slate has no artwork.
 They are shown with the default band colors and the system name as text. If
 you add `images/logo.svg` (and optionally `consolegame.svg`, `controller.svg`,

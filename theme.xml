@@ -84,6 +84,10 @@
         <include name="horizontal" displayName="${langSystemHorizontal}"/>
         <include name="vertical" displayName="${langSystemVertical}"/>
     </subset>
+    <subset name="use-svg-logos" displayName="${subsetSvgLogos}">
+        <include name="yes" displayName="${langYes}"/>
+        <include name="no" displayName="${langNo}"/>
+    </subset>
     <subset name="ratingicons" displayName="${subsetRatingIcons}">
         <include name="system" displayName="${langRatingSystem}"/>
         <include name="standard" displayName="${langRatingStandard}"/>
@@ -91,6 +95,8 @@
 
     <!-- Per-system data. Folder = Batocera theme name (system.theme) -->
     <include>./platforms/${system.theme}/colors.xml</include>
+    <!-- "Use Vector Graphics for Logos: No" loads the Iconic raster logos (white border, readable on dark palettes) -->
+    <include ifSubset="use-svg-logos:no">./platforms/${system.theme}/iconic.xml</include>
     <include ifSubset="systeminfo:show">./platforms/${system.theme}/systeminfo.xml</include>
 
     <!-- Styling, then font size variables and per-aspect geometry -->
