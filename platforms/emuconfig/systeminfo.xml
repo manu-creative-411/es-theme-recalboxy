@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>EmuConfig is the control room of your emulation setup:</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>one place to tune cores, shaders, controllers and</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>per-system options without opening a single file.</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Think of it as the workshop behind the arcade, where</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>every emulator gets its settings dialed in before it</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>meets the game. Tinker freely: nothing here is final.</text>
+        </text>
+    </view>
+</theme>

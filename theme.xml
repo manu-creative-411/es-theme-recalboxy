@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Recalboxy for Batocera EmulationStation (es-theme-recalboxy)
+    A tribute to Recalbox and to older Batocera versions.
+    Derived from: Slate for ES-DE (slate-es-de) by the ES-DE project
+    Based on: recalbox-multi by the Recalbox community
+    License: Creative Commons CC-BY-NC-SA
+    Batocera port: platform names follow es_systems.yml; the configurable
+    options (color set, font size, system info) are exposed as subsets.
+-->
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <variables>
+        <regularFont>./core/fonts/Exo2-RegularCondensed.otf</regularFont>
+        <semiBoldFont>./core/fonts/Exo2-SemiBoldCondensed.otf</semiBoldFont>
+        <boldFont>./core/fonts/Exo2-BoldCondensed.otf</boldFont>
+        <systemConsoleImage>./platforms/${system.theme}/images/consolegame.svg</systemConsoleImage>
+        <systemControllerImage>./platforms/${system.theme}/images/controller.svg</systemControllerImage>
+        <systemLogo>./platforms/${system.theme}/images/logo.svg</systemLogo>
+        <!-- Default band colors for systems without their own colors.xml -->
+        <band1>F6DD08</band1>
+        <band2>800000</band2>
+        <band3>FF0000</band3>
+        <band4>303030</band4>
+        <!-- Layout selector: w169, w43, v169 or v43 -->
+        <layout>w169</layout>
+        <layout if="${screen.ratio} == '4/3' || ${screen.ratio} == '5/4' || ${screen.ratio} == '6/5' || ${screen.ratio} == '1/1' || ${screen.ratio} == '16/15' || ${screen.ratio} == '8/7' || ${screen.ratio} == '19/14'">w43</layout>
+        <layout verticalScreen="true">v169</layout>
+        <layout verticalScreen="true" if="${screen.ratio} == '3/4' || ${screen.ratio} == '7/9'">v43</layout>
+    </variables>
+
+    <!-- Language: English first, then the current language on top -->
+    <include>./lang/en_US.xml</include>
+    <include lang="ar">./lang/ar_SA.xml</include>
+    <include lang="bs">./lang/bs_BA.xml</include>
+    <include lang="ca">./lang/ca_ES.xml</include>
+    <include lang="de">./lang/de_DE.xml</include>
+    <include lang="es">./lang/es_ES.xml</include>
+    <include lang="fr">./lang/fr_FR.xml</include>
+    <include lang="hr">./lang/hr_HR.xml</include>
+    <include lang="it">./lang/it_IT.xml</include>
+    <include lang="ja">./lang/ja_JP.xml</include>
+    <include lang="ko">./lang/ko_KR.xml</include>
+    <include lang="nl">./lang/nl_NL.xml</include>
+    <include lang="pl">./lang/pl_PL.xml</include>
+    <include lang="pt">./lang/pt_PT.xml</include>
+    <include if="${global.language} == 'pt_BR'">./lang/pt_BR.xml</include>
+    <include lang="ro">./lang/ro_RO.xml</include>
+    <include lang="ru">./lang/ru_RU.xml</include>
+    <include lang="sr">./lang/sr_RS.xml</include>
+    <include lang="sv">./lang/sv_SE.xml</include>
+    <include lang="vi">./lang/vi_VN.xml</include>
+    <include lang="zh">./lang/zh_CN.xml</include>
+    <include if="${global.language} == 'zh_TW'">./lang/zh_TW.xml</include>
+
+    <!-- Configurable options (Theme options menu) -->
+    <subset name="colorset" displayName="${subsetColorset}">
+        <include name="slate" displayName="${langPalSlate}">./colors/slate.xml</include>
+        <include name="default" displayName="${langPalDefault}">./colors/default.xml</include>
+        <include name="darker" displayName="${langPalDarker}">./colors/darker.xml</include>
+        <include name="blackandwhite" displayName="${langPalBlackWhite}">./colors/blackandwhite.xml</include>
+        <include name="whiteandblack" displayName="${langPalWhiteBlack}">./colors/whiteandblack.xml</include>
+        <include name="blue" displayName="${langPalBlue}">./colors/blue.xml</include>
+        <include name="green" displayName="${langPalGreen}">./colors/green.xml</include>
+        <include name="grey" displayName="${langPalGrey}">./colors/grey.xml</include>
+        <include name="orange" displayName="${langPalOrange}">./colors/orange.xml</include>
+        <include name="pink" displayName="${langPalPink}">./colors/pink.xml</include>
+        <include name="purple" displayName="${langPalPurple}">./colors/purple.xml</include>
+        <include name="gamecube" displayName="${langPalGameCube}">./colors/gamecube.xml</include>
+        <include name="red" displayName="${langPalRed}">./colors/red.xml</include>
+        <include name="yellow" displayName="${langPalYellow}">./colors/yellow.xml</include>
+    </subset>
+    <subset name="fontsize" displayName="${subsetFontSize}">
+        <include name="medium" displayName="${langMedium}"/>
+        <include name="large" displayName="${langLarge}"/>
+    </subset>
+    <subset name="systeminfo" displayName="${subsetSystemInfo}">
+        <include name="show" displayName="${langShow}"/>
+        <include name="hide" displayName="${langHide}"/>
+    </subset>
+
+    <subset name="systemview" displayName="${subsetSystemView}">
+        <include name="horizontal" displayName="${langSystemHorizontal}"/>
+        <include name="vertical" displayName="${langSystemVertical}"/>
+    </subset>
+    <subset name="ratingicons" displayName="${subsetRatingIcons}">
+        <include name="system" displayName="${langRatingSystem}"/>
+        <include name="standard" displayName="${langRatingStandard}"/>
+    </subset>
+
+    <!-- Per-system data. Folder = Batocera theme name (system.theme) -->
+    <include>./platforms/${system.theme}/colors.xml</include>
+    <include ifSubset="systeminfo:show">./platforms/${system.theme}/systeminfo.xml</include>
+
+    <!-- Styling, then font size variables and per-aspect geometry -->
+    <include>./views/common.xml</include>
+    <include if="${layout} == 'w169'" ifSubset="fontsize:medium">./layouts/vars-16-9-medium.xml</include>
+    <include if="${layout} == 'w169'" ifSubset="fontsize:large">./layouts/vars-16-9-large.xml</include>
+    <include if="${layout} == 'w43'" ifSubset="fontsize:medium">./layouts/vars-4-3-medium.xml</include>
+    <include if="${layout} == 'w43'" ifSubset="fontsize:large">./layouts/vars-4-3-large.xml</include>
+    <include if="${layout} == 'v169'" ifSubset="fontsize:medium">./layouts/vars-16-9-vertical-medium.xml</include>
+    <include if="${layout} == 'v169'" ifSubset="fontsize:large">./layouts/vars-16-9-vertical-large.xml</include>
+    <include if="${layout} == 'v43'" ifSubset="fontsize:medium">./layouts/vars-4-3-vertical-medium.xml</include>
+    <include if="${layout} == 'v43'" ifSubset="fontsize:large">./layouts/vars-4-3-vertical-large.xml</include>
+    <include if="${layout} == 'w169'">./layouts/16-9.xml</include>
+    <include if="${layout} == 'w43'">./layouts/4-3.xml</include>
+    <include if="${layout} == 'v169'">./layouts/16-9-vertical.xml</include>
+    <include if="${layout} == 'v43'">./layouts/4-3-vertical.xml</include>
+    <include>./views/screen.xml</include>
+    <include if="${layout} == 'w169' || ${layout} == 'w43'">./views/screen-landscape.xml</include>
+    <include>./views/menu.xml</include>
+    <include ifSubset="systemview:vertical" if="${layout} == 'w169' || ${layout} == 'w43'">./views/system-vertical.xml</include>
+    <include ifSubset="ratingicons:system">./platforms/${system.theme}/rating.xml</include>
+
+    <!-- Help icons. Declared last so these icon sets override the tint set in views/*.xml -->
+    <subset name="helpicons" displayName="${subsetHelpIcons}">
+        <include name="default" displayName="${langHelpDefault}"/>
+        <include name="xbox" displayName="${langHelpXbox}">./help/xbox.xml</include>
+        <include name="playstation" displayName="${langHelpPlaystation}">./help/playstation.xml</include>
+        <include name="snes" displayName="${langHelpSnes}">./help/snes.xml</include>
+        <include name="buttons" displayName="${langHelpButtons}">./help/buttons.xml</include>
+        <include name="6buttons" displayName="${langHelp6Buttons}">./help/6buttons.xml</include>
+        <include name="8buttons" displayName="${langHelp8Buttons}">./help/8buttons.xml</include>
+        <include name="snesalt" displayName="${langHelpSnesAlt}">./help/snesalt.xml</include>
+        <include name="xboxone" displayName="${langHelpXboxOne}">./help/xboxone.xml</include>
+        <include name="arcade" displayName="${langHelpArcade}">./help/arcade.xml</include>
+    </subset>
+</theme>

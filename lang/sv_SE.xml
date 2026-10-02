@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Utgivet</langLabelReleasedate>
+        <langLabelDeveloper>Utvecklare</langLabelDeveloper>
+        <langLabelPublisher>Utgivare</langLabelPublisher>
+        <langLabelGenre>Genre</langLabelGenre>
+        <langLabelPlayers>Spelare</langLabelPlayers>
+        <langLabelLastPlayed>Senast Spelat</langLabelLastPlayed>
+        <langLabelPlayTime>Speltid</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

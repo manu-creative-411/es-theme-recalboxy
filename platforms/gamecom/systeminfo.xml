@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Tiger Electronics</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1997</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Sharp SM8521 @ 10 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Resolution:  260×160 pixels, 4 shades of gray</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Sound:  4 channels, mono</text>
+        </text>
+    </view>
+</theme>

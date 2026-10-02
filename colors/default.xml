@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Menu exception: classic EmulationStation menu look (white panel, gray text/selector) with a medium-dark veil. Palette ported from the Recalbox theme colorset "default". Carousel/counter/rating/dimmed values are derived (not in Recalbox). -->
+<theme>
+    <variables>
+        <backgroundColor>707070</backgroundColor>
+        <statusColor>FFFFFF</statusColor>
+        <systemCarouselColor>C5C5C5D8</systemCarouselColor>
+        <systemCarouselTextColor>262626</systemCarouselTextColor>
+        <systemGameCounterColor>262626</systemGameCounterColor>
+        <systemGameCounterBackgroundColor>9F9F9FD8</systemGameCounterBackgroundColor>
+        <systemInfoTextColor>262626</systemInfoTextColor>
+        <systemHelpColor>262626</systemHelpColor>
+        <systemHelpColorDimmed>313131</systemHelpColorDimmed>
+        <gamelistBackFrameColor>9F9F9F</gamelistBackFrameColor>
+        <gamelistTextlistSelectorColor>262626</gamelistTextlistSelectorColor>
+        <gamelistTextlistSelectedColor>9F9F9F</gamelistTextlistSelectedColor>
+        <gamelistTextlistPrimaryColor>262626</gamelistTextlistPrimaryColor>
+        <gamelistTextlistSecondaryColor>4D4D4D</gamelistTextlistSecondaryColor>
+        <gamelistCollectionsHeaderColor>262626</gamelistCollectionsHeaderColor>
+        <gamelistDefaultTextColor>262626</gamelistDefaultTextColor>
+        <gamelistInfoColor>000000</gamelistInfoColor>
+        <gamelistRatingColor>FFFFFF</gamelistRatingColor>
+        <gamelistHelpColor>262626</gamelistHelpColor>
+        <gamelistHelpColorDimmed>313131</gamelistHelpColorDimmed>
+        <menuHelpColor>FFFFFF</menuHelpColor>
+        <systemSelectorColor>5C5C5C</systemSelectorColor>
+        <menuBackgroundColor>FFFFFFFF</menuBackgroundColor>
+        <menuTextColor>777777FF</menuTextColor>
+        <menuTitleColor>777777FF</menuTitleColor>
+        <menuSeparatorColor>C6C6C6FF</menuSeparatorColor>
+        <menuSelectorColor>878787FF</menuSelectorColor>
+        <menuSelectedColor>FFFFFFFF</menuSelectedColor>
+        <menuFooterColor>C6C6C6FF</menuFooterColor>
+        <menuSectionColor>5E5E5EFF</menuSectionColor>
+        <!-- Clock, controller/battery indicators and help bar (drawn over the menu veil) -->
+        <overlayColor>262626</overlayColor>
+        <menuSectionBackgroundColor>E0E0E0FF</menuSectionBackgroundColor>
+    </variables>
+</theme>

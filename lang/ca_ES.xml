@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Llançament</langLabelReleasedate>
+        <langLabelDeveloper>Desenvolupador</langLabelDeveloper>
+        <langLabelPublisher>Editor</langLabelPublisher>
+        <langLabelGenre>Gènere</langLabelGenre>
+        <langLabelPlayers>Jugadors</langLabelPlayers>
+        <langLabelLastPlayed>Última Partida</langLabelLastPlayed>
+        <langLabelPlayTime>Temps De Joc</langLabelPlayTime>
+        <subsetColorset>Esquema de color</subsetColorset>
+        <subsetFontSize>Mida de la font</subsetFontSize>
+        <subsetSystemInfo>Info del sistema</subsetSystemInfo>
+        <langMedium>Mitjana</langMedium>
+        <langLarge>Gran</langLarge>
+        <langShow>Mostra</langShow>
+        <langHide>Amaga</langHide>
+    </variables>
+</theme>

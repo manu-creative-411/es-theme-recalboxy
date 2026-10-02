@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Capcom</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1988</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Motorola 68000 @ 10 MHz + Zilog Z80 @ 3.579 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Graphics:  CPS-A &amp; CPS-B</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>RAM:  64 KB + 2 KB / VRAM:  192 KB</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  Yamaha YM2151 @ 3.579 MHz + Oki OKI6295 @ 1 MHz</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Resolution:   384×224 pixels, 65,536 colors</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Media:  ROM board</text>
+        </text>
+    </view>
+</theme>

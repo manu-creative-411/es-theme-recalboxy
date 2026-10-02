@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1993</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  16-bit Motorola 68000 @ 7.6 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Resolution:  320×224 pixels NTSC, 320x240 PAL</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Atari Corporation</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1985</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>OS:  Atari TOS</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>CPU:  16/32-bit Motorola 68000 @ 8 MHz</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>RAM:  512 KB or 1 MB</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Low resolution mode:  320×200 pixels, 16 colors, (512 color palette)</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Medium resolution mode:  640×200 pixels, 4 colors, (512 color palette)</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Sound:  Yamaha YM2149 3-voice square wave</text>
+        </text>
+        <text name="info9" extra="true">
+          <text>Media:  Single-sided 3½-inch floppy disk</text>
+        </text>
+    </view>
+</theme>

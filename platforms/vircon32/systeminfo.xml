@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Creator:  Carra</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Initial release:  2021</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Vircon32 is a virtual console inspired by classic 16- and</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>32-bit systems as well as the arcade era.</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Resolution:  640×360 pixels, 16.7 million colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  16 channels, 16-bit stereo</text>
+        </text>
+    </view>
+</theme>

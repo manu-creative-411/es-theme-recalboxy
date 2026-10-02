@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system,menu,screen,basic,detailed,video,gamecarousel,grid">
+        <helpsystem name="help">
+            <iconColor>FFFFFFFF</iconColor>
+            <iconA>${themePath}/help/icons/xbox/Xbox_button_B.svg</iconA>
+            <iconB>${themePath}/help/icons/xbox/Xbox_button_A.svg</iconB>
+            <iconX>${themePath}/help/icons/xbox/Xbox_button_Y.svg</iconX>
+            <iconY>${themePath}/help/icons/xbox/Xbox_button_X.svg</iconY>
+            <iconL>${themePath}/help/icons/xbox/Xbox_Left_Bumper.svg</iconL>
+            <iconR>${themePath}/help/icons/xbox/Xbox_Right_Bumper.svg</iconR>
+            <iconStart>${themePath}/help/icons/xbox/Xbox_Menu_button.svg</iconStart>
+            <iconSelect>${themePath}/help/icons/xbox/Xbox_Share_button.svg</iconSelect>
+            <iconUpDown>${themePath}/help/icons/xbox/Xbox_D-Pad_UpDown.svg</iconUpDown>
+            <iconLeftRight>${themePath}/help/icons/xbox/Xbox_D-Pad_LeftRight.svg</iconLeftRight>
+            <iconUpDownLeftRight>${themePath}/help/icons/xbox/Xbox_D-Pad_UpDownLeftRight.svg</iconUpDownLeftRight>
+        </helpsystem>
+    </view>
+</theme>

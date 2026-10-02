@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Palette "GameCube": white text on GameCube indigo (#243075). Own palette, not from Recalbox; derived values follow the structure of the "recalbox" colorset (frame = background x0.8, selector = background lightened 20%). -->
+<theme>
+    <variables>
+        <backgroundColor>243075</backgroundColor>
+        <statusColor>FFFFFF</statusColor>
+        <systemCarouselColor>6D7DD2D8</systemCarouselColor>
+        <systemCarouselTextColor>F0F0F0</systemCarouselTextColor>
+        <systemGameCounterColor>F0F0F0</systemGameCounterColor>
+        <systemGameCounterBackgroundColor>3A4A9FD8</systemGameCounterBackgroundColor>
+        <systemInfoTextColor>FFFFFF</systemInfoTextColor>
+        <systemHelpColor>FFFFFF</systemHelpColor>
+        <systemHelpColorDimmed>E3E6F7</systemHelpColorDimmed>
+        <gamelistBackFrameColor>3A4A9F</gamelistBackFrameColor>
+        <gamelistTextlistSelectorColor>6D7DD2</gamelistTextlistSelectorColor>
+        <gamelistTextlistSelectedColor>FFFFFF</gamelistTextlistSelectedColor>
+        <gamelistTextlistPrimaryColor>FFFFFF</gamelistTextlistPrimaryColor>
+        <gamelistTextlistSecondaryColor>A3ADE6</gamelistTextlistSecondaryColor>
+        <gamelistCollectionsHeaderColor>FFFFFF</gamelistCollectionsHeaderColor>
+        <gamelistDefaultTextColor>FFFFFF</gamelistDefaultTextColor>
+        <gamelistInfoColor>FFFFFF</gamelistInfoColor>
+        <gamelistRatingColor>FFFFFF</gamelistRatingColor>
+        <gamelistHelpColor>FFFFFF</gamelistHelpColor>
+        <gamelistHelpColorDimmed>E3E6F7</gamelistHelpColorDimmed>
+        <menuHelpColor>FFFFFF</menuHelpColor>
+        <systemSelectorColor>4B558E</systemSelectorColor>
+        <menuBackgroundColor>1C255BD8</menuBackgroundColor>
+        <menuTextColor>E9EAF1FF</menuTextColor>
+        <menuTitleColor>E9EAF1FF</menuTitleColor>
+        <menuSeparatorColor>6C7295FF</menuSeparatorColor>
+        <menuSelectorColor>535A83FF</menuSelectorColor>
+        <menuSelectedColor>FFFFFFFF</menuSelectedColor>
+        <menuFooterColor>A9ACC1FF</menuFooterColor>
+        <menuSectionColor>BBBECEFF</menuSectionColor>
+        <!-- Clock, controller/battery indicators and help bar (drawn over the menu veil) -->
+        <overlayColor>FFFFFF</overlayColor>
+        <menuSectionBackgroundColor>141A40D8</menuSectionBackgroundColor>
+    </variables>
+</theme>

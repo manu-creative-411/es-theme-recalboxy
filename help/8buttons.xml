@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system,menu,screen,basic,detailed,video,gamecarousel,grid">
+        <helpsystem name="help">
+            <iconA>${themePath}/help/icons/8buttons_east.svg</iconA>
+            <iconB>${themePath}/help/icons/8buttons_south.svg</iconB>
+            <iconX>${themePath}/help/icons/8buttons_north.svg</iconX>
+            <iconY>${themePath}/help/icons/8buttons_west.svg</iconY>
+        </helpsystem>
+    </view>
+</theme>

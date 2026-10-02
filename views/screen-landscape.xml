@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Landscape layouts only. Same side margin as the help bar (0.008). Everything takes the help
+color of the palette. -->
+<theme>
+  <formatVersion>7</formatVersion>
+  <view name="screen">
+    <text name="clock">
+      <pos>0.912 0.9515</pos>
+      <size>0.08 0.035</size>
+      <alignment>right</alignment>
+      <color>${overlayColor}</color>
+    </text>
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.962 0.014</pos>
+      <color>${overlayColor}</color>
+    </batteryIndicator>
+    <controllerActivity name="controllerActivity">
+      <pos>0.2 0.005</pos>
+      <size>0.6 0.035</size>
+      <horizontalAlignment>center</horizontalAlignment>
+      <itemSpacing>0.005</itemSpacing>
+      <imagePath>${themePath}/core/images/menu_icons/Controllers.png</imagePath>
+      <color>${overlayColor}</color>
+      <activityColor>39FF14FF</activityColor>
+      <hotkeyColor>39FF14FF</hotkeyColor>
+    </controllerActivity>
+  </view>
+</theme>

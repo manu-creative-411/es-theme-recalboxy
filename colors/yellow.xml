@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Palette ported from the Recalbox theme colorset "yellow". Carousel/counter/rating/dimmed values are derived (not in Recalbox). -->
+<theme>
+    <variables>
+        <backgroundColor>FFFA10</backgroundColor>
+        <statusColor>262626</statusColor>
+        <systemCarouselColor>FAF8B4D8</systemCarouselColor>
+        <systemCarouselTextColor>262626</systemCarouselTextColor>
+        <systemGameCounterColor>202020</systemGameCounterColor>
+        <systemGameCounterBackgroundColor>FFFC87D8</systemGameCounterBackgroundColor>
+        <systemInfoTextColor>262626</systemInfoTextColor>
+        <systemHelpColor>262626</systemHelpColor>
+        <systemHelpColorDimmed>474623</systemHelpColorDimmed>
+        <gamelistBackFrameColor>FFFC87</gamelistBackFrameColor>
+        <gamelistTextlistSelectorColor>262626</gamelistTextlistSelectorColor>
+        <gamelistTextlistSelectedColor>FFFA10</gamelistTextlistSelectedColor>
+        <gamelistTextlistPrimaryColor>262626</gamelistTextlistPrimaryColor>
+        <gamelistTextlistSecondaryColor>4D4D4D</gamelistTextlistSecondaryColor>
+        <gamelistCollectionsHeaderColor>262626</gamelistCollectionsHeaderColor>
+        <gamelistDefaultTextColor>262626</gamelistDefaultTextColor>
+        <gamelistInfoColor>000000</gamelistInfoColor>
+        <gamelistRatingColor>262626</gamelistRatingColor>
+        <gamelistHelpColor>262626</gamelistHelpColor>
+        <gamelistHelpColorDimmed>474623</gamelistHelpColorDimmed>
+        <menuHelpColor>FFFFFF</menuHelpColor>
+        <systemSelectorColor>D1CD0D</systemSelectorColor>
+        <menuBackgroundColor>F1F1F1CC</menuBackgroundColor>
+        <menuTextColor>35495EFF</menuTextColor>
+        <menuTitleColor>35495EFF</menuTitleColor>
+        <menuSeparatorColor>35495EFF</menuSeparatorColor>
+        <menuSelectorColor>35495EFF</menuSelectorColor>
+        <menuSelectedColor>FFFFFFCC</menuSelectedColor>
+        <menuFooterColor>808080FF</menuFooterColor>
+        <menuSectionColor>446283FF</menuSectionColor>
+        <!-- Clock, controller/battery indicators and help bar (drawn over the menu veil) -->
+        <overlayColor>262626</overlayColor>
+        <menuSectionBackgroundColor>DEE0E2CC</menuSectionBackgroundColor>
+    </variables>
+</theme>

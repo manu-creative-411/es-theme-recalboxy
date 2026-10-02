@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>發行日</langLabelReleasedate>
+        <langLabelDeveloper>開發者</langLabelDeveloper>
+        <langLabelPublisher>發行者</langLabelPublisher>
+        <langLabelGenre>類別</langLabelGenre>
+        <langLabelPlayers>玩家</langLabelPlayers>
+        <langLabelLastPlayed>最後遊玩</langLabelLastPlayed>
+        <langLabelPlayTime>遊玩時間</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

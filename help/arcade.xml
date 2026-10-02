@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system,menu,screen,basic,detailed,video,gamecarousel,grid">
+        <helpsystem name="help">
+            <iconColor>FFFFFFFF</iconColor>
+            <iconUpDown>${themePath}/help/icons/arcade/updown.png</iconUpDown>
+            <iconLeftRight>${themePath}/help/icons/arcade/leftright.png</iconLeftRight>
+            <iconUpDownLeftRight>${themePath}/help/icons/arcade/all.png</iconUpDownLeftRight>
+            <iconA>${themePath}/help/icons/arcade/a.png</iconA>
+            <iconB>${themePath}/help/icons/arcade/b.png</iconB>
+            <iconX>${themePath}/help/icons/arcade/x.png</iconX>
+            <iconY>${themePath}/help/icons/arcade/y.png</iconY>
+            <iconL>${themePath}/help/icons/arcade/l.png</iconL>
+            <iconR>${themePath}/help/icons/arcade/r.png</iconR>
+            <iconStart>${themePath}/help/icons/arcade/start.png</iconStart>
+            <iconSelect>${themePath}/help/icons/arcade/select.png</iconSelect>
+        </helpsystem>
+    </view>
+</theme>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Vertical system list (layout of the Recalbox "vertical left" system view). Landscape layouts only. -->
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="system">
+        <carousel name="systemcarousel">
+          <type>vertical</type>
+          <pos>0 0</pos>
+          <size>0.27 0.95</size>
+          <color>FFFFFF00</color>
+          <logoScale>2.5</logoScale>
+          <logoSize>0.1 0.05</logoSize>
+          <maxLogoCount>7</maxLogoCount>
+          <logoAlignment>center</logoAlignment>
+        </carousel>
+        <text name="logoText">
+          <color>${systemHelpColor}</color>
+        </text>
+        <text name="systemInfo">
+          <pos>0.33 0.825</pos>
+          <size>0.47 0.125</size>
+          <origin>0 0</origin>
+          <color>${systemInfoTextColor}</color>
+          <backgroundColor>FFFFFF00</backgroundColor>
+        </text>
+        <image name="e_selector" extra="true">
+          <pos>0.125 0.475</pos>
+          <origin>0.5 0.5</origin>
+          <maxSize>0.32 0.25</maxSize>
+          <path>${themePath}/core/images/selector_narrow.svg</path>
+          <color>${systemSelectorColor}</color>
+        </image>
+        <image name="consolegame" extra="true">
+          <pos>0.33 0.825</pos>
+          <origin>0 1</origin>
+          <maxSize>0.41 0.35</maxSize>
+        </image>
+        <image name="controller" extra="true">
+          <pos>0.78 0.30</pos>
+          <origin>1 1</origin>
+          <maxSize>0.15 0.25</maxSize>
+        </image>
+        <text name="info1" extra="true">
+          <pos>0.33 0.080</pos>
+        </text>
+        <text name="info2" extra="true">
+          <pos>0.33 0.112</pos>
+        </text>
+        <text name="info3" extra="true">
+          <pos>0.33 0.144</pos>
+        </text>
+        <text name="info4" extra="true">
+          <pos>0.33 0.176</pos>
+        </text>
+        <text name="info5" extra="true">
+          <pos>0.33 0.208</pos>
+        </text>
+        <text name="info6" extra="true">
+          <pos>0.33 0.240</pos>
+        </text>
+        <text name="info7" extra="true">
+          <pos>0.33 0.272</pos>
+        </text>
+        <text name="info8" extra="true">
+          <pos>0.33 0.304</pos>
+        </text>
+        <text name="info9" extra="true">
+          <pos>0.33 0.336</pos>
+        </text>
+        <text name="info10" extra="true">
+          <pos>0.33 0.368</pos>
+        </text>
+    </view>
+</theme>

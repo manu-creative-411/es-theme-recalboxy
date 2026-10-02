@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <band1>1D3C9E</band1>
+        <band2>4F7BD9</band2>
+        <band3>F2F2F2</band3>
+        <band4>0E1A3F</band4>
+        <systemLogo>./platforms/now-playing/images/logo.png</systemLogo>
+        <systemControllerImage>./platforms/now-playing/images/controller.png</systemControllerImage>
+    </variables>
+</theme>

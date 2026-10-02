@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Ngày phát hành</langLabelReleasedate>
+        <langLabelDeveloper>Nhà phát triển</langLabelDeveloper>
+        <langLabelPublisher>Nhà xuất bản</langLabelPublisher>
+        <langLabelGenre>Thể loại</langLabelGenre>
+        <langLabelPlayers>Người chơi</langLabelPlayers>
+        <langLabelLastPlayed>Lần chơi cuối</langLabelLastPlayed>
+        <langLabelPlayTime>Thời gian chơi</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

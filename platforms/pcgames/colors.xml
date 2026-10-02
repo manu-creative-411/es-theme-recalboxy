@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <band1>1B1FA8</band1>
+        <band2>4A55E8</band2>
+        <band3>C9CCFF</band3>
+        <band4>1A1A2E</band4>
+        <systemLogo>./platforms/pcgames/images/logo.png</systemLogo>
+        <systemControllerImage>./platforms/pcgames/images/controller.png</systemControllerImage>
+    </variables>
+</theme>

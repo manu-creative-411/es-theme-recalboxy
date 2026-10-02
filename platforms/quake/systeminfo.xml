@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Developer:  id Software</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1996</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Quake is a series of first-person shooter video games developed by</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>id Software.  The series is composed of the eponymous game from</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>1996 and its nonlinear, standalone sequels which vary in setting</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>and plot. Quake was created as a successor franchise to id's highly</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>successful Doom series, which had begun in 1993.</text>
+        </text>
+    </view>
+</theme>

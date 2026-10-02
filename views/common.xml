@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <image name="background" extra="true">
+          <pos>0 0</pos>
+          <size>1 1</size>
+          <path>./core/images/background.png</path>
+          <tile>true</tile>
+          <color>${backgroundColor}</color>
+          <zIndex>0</zIndex>
+        </image>
+        <image name="band1" extra="true">
+          <pos>0.8 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band1}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="band2" extra="true">
+          <pos>0.829 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band2}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="band3" extra="true">
+          <pos>0.858 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band3}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="band4" extra="true">
+          <pos>0.887 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band4}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <carousel name="systemcarousel">
+          <type>horizontal</type>
+          <color>${systemCarouselColor}</color>
+          <minLogoOpacity>0.5</minLogoOpacity>
+          <logoAlignment>center</logoAlignment>
+          <scrollSound>./core/sounds/systembrowse.wav</scrollSound>
+        </carousel>
+        <image name="logo">
+          <path>${systemLogo}</path>
+        </image>
+        <text name="logoText">
+          <fontPath>${regularFont}</fontPath>
+          <color>${systemCarouselTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+          <lineSpacing>1.2</lineSpacing>
+        </text>
+        <text name="systemInfo">
+          <fontPath>${regularFont}</fontPath>
+          <alignment>center</alignment>
+          <color>${systemGameCounterColor}</color>
+          <backgroundColor>${systemGameCounterBackgroundColor}</backgroundColor>
+          <forceUppercase>true</forceUppercase>
+          <zIndex>50</zIndex>
+        </text>
+        <image name="consolegame" extra="true">
+          <origin>0 1</origin>
+          <path>${systemConsoleImage}</path>
+          <zIndex>10</zIndex>
+        </image>
+        <image name="controller" extra="true">
+          <origin>1 1</origin>
+          <path>${systemControllerImage}</path>
+          <zIndex>10</zIndex>
+        </image>
+        <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="true">
+          <fontPath>${semiBoldFont}</fontPath>
+          <alignment>left</alignment>
+          <color>${systemInfoTextColor}</color>
+          <zIndex>10</zIndex>
+        </text>
+        <helpsystem name="help">
+          <textColor>${overlayColor}</textColor>
+          <iconColor>${overlayColor}</iconColor>
+          <fontPath>${regularFont}</fontPath>
+        </helpsystem>
+        <sound name="launch">
+          <path>./core/sounds/launch.wav</path>
+        </sound>
+        <sound name="back">
+          <path>./core/sounds/back.wav</path>
+        </sound>
+        <sound name="menuOpen">
+          <path>./core/sounds/select.wav</path>
+        </sound>
+    </view>
+    <view name="basic, detailed, video, grid">
+        <image name="background">
+          <pos>0 0</pos>
+          <size>1 1</size>
+          <path>./core/images/background.png</path>
+          <tile>true</tile>
+          <color>${backgroundColor}</color>
+          <zIndex>0</zIndex>
+        </image>
+        <image name="band1" extra="true">
+          <pos>0.8 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band1}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="band2" extra="true">
+          <pos>0.829 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band2}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="band3" extra="true">
+          <pos>0.858 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band3}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="band4" extra="true">
+          <pos>0.887 0</pos>
+          <size>0.03 1</size>
+          <path>./core/images/band.png</path>
+          <color>${band4}</color>
+          <zIndex>5</zIndex>
+        </image>
+        <image name="logo">
+          <origin>1 1</origin>
+          <path>${systemLogo}</path>
+          <zIndex>50</zIndex>
+        </image>
+        <text name="logoText">
+          <origin>1 1</origin>
+          <alignment>right</alignment>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistCollectionsHeaderColor}</color>
+          <forceUppercase>true</forceUppercase>
+          <zIndex>50</zIndex>
+        </text>
+        <image name="consolegame" extra="true">
+          <origin>0 1</origin>
+          <path>${systemConsoleImage}</path>
+          <zIndex>10</zIndex>
+        </image>
+        <textlist name="gamelist">
+          <selectorColor>${gamelistTextlistSelectorColor}</selectorColor>
+          <selectedColor>${gamelistTextlistSelectedColor}</selectedColor>
+          <primaryColor>${gamelistTextlistPrimaryColor}</primaryColor>
+          <secondaryColor>${gamelistTextlistSecondaryColor}</secondaryColor>
+          <fontPath>${boldFont}</fontPath>
+          <alignment>left</alignment>
+          <horizontalMargin>0.01</horizontalMargin>
+          <forceUppercase>true</forceUppercase>
+          <scrollSound>./core/sounds/scroll.wav</scrollSound>
+          <zIndex>20</zIndex>
+        </textlist>
+        <helpsystem name="help">
+          <textColor>${overlayColor}</textColor>
+          <iconColor>${overlayColor}</iconColor>
+          <fontPath>${regularFont}</fontPath>
+        </helpsystem>
+        <sound name="launch">
+          <path>./core/sounds/launch.wav</path>
+        </sound>
+        <sound name="back">
+          <path>./core/sounds/back.wav</path>
+        </sound>
+        <sound name="menuOpen">
+          <path>./core/sounds/select.wav</path>
+        </sound>
+    </view>
+    <view name="detailed, video">
+        <!-- Metadata this theme does not lay out: hide them (off-screen too, in case "visible" is overridden by ES) -->
+        <text name="md_lbl_rating, md_lbl_playcount, md_playcount">
+          <visible>false</visible>
+          <pos>1 1</pos>
+        </text>
+        <text name="md_lbl_releasedate">
+          <text>${langLabelReleasedate}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_lbl_developer">
+          <text>${langLabelDeveloper}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_lbl_publisher">
+          <text>${langLabelPublisher}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_lbl_genre">
+          <text>${langLabelGenre}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_lbl_players">
+          <text>${langLabelPlayers}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_lbl_lastplayed">
+          <text>${langLabelLastPlayed}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_lbl_gametime">
+          <text>${langLabelPlayTime}:</text>
+          <fontPath>${boldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <datetime name="md_releasedate">
+          <!-- Year only: many scraped games just carry a year, which would otherwise show up as "01/01/<year>" -->
+          <format>%Y</format>
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </datetime>
+        <text name="md_developer">
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_publisher">
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_genre">
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_players">
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <datetime name="md_lastplayed">
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </datetime>
+        <text name="md_gametime">
+          <fontPath>${regularFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+        </text>
+        <text name="md_description">
+          <fontPath>${semiBoldFont}</fontPath>
+          <color>${gamelistDefaultTextColor}</color>
+          <forceUppercase>true</forceUppercase>
+          <lineSpacing>1.2</lineSpacing>
+          <autoScrollDelay>4500</autoScrollDelay>
+        </text>
+        <rating name="md_rating">
+          <color>${gamelistRatingColor}</color>
+          <filledPath>./core/images/rating_filled.svg</filledPath>
+          <unfilledPath>./core/images/rating_empty.svg</unfilledPath>
+        </rating>
+        <text name="e_gamecount" extra="true">
+          <text>tostring({system:total}) + " " + translate("GAMES")</text>
+          <fontPath>${boldFont}</fontPath>
+          <alignment>right</alignment>
+          <color>${gamelistInfoColor}</color>
+          <forceUppercase>true</forceUppercase>
+          <zIndex>45</zIndex>
+        </text>
+        <text name="e_collectionsystem" extra="true">
+          <text>{game:system:fullName}</text>
+          <visible>{system:collection}</visible>
+          <origin>1 1</origin>
+          <alignment>right</alignment>
+          <fontPath>${regularFont}</fontPath>
+          <fontSize>0.025</fontSize>
+          <color>${gamelistCollectionsHeaderColor}</color>
+          <forceUppercase>true</forceUppercase>
+          <zIndex>45</zIndex>
+        </text>
+    </view>
+    <view name="grid">
+        <!-- Metadata this theme does not lay out: hide them (off-screen too, in case "visible" is overridden by ES) -->
+        <text name="md_lbl_rating, md_lbl_playcount, md_playcount">
+          <visible>false</visible>
+          <pos>1 1</pos>
+        </text>
+    </view>
+</theme>

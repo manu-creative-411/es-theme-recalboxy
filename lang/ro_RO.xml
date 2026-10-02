@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Lansat</langLabelReleasedate>
+        <langLabelDeveloper>Dezvoltator</langLabelDeveloper>
+        <langLabelPublisher>Editor</langLabelPublisher>
+        <langLabelGenre>Gen</langLabelGenre>
+        <langLabelPlayers>Număr de Jucători</langLabelPlayers>
+        <langLabelLastPlayed>Jucat Ultima Dată</langLabelLastPlayed>
+        <langLabelPlayTime>Timp Jucat</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

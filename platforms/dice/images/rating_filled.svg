@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 466.4 466.84">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Calque_44" data-name="Calque 44">
+    <g>
+      <path d="M310.94,155.47H31.09v280.27h279.84V155.47ZM93.28,311.37h-31.09v-124.81h31.09v124.81ZM186.56,311.37h-31.09v-31.09h31.09v31.09ZM279.84,404.65h-31.09v-124.37h31.09v124.37Z"/>
+      <path d="M435.31,62.19h-31.09v31.09h-31.09v31.09h-31.09v280.27h31.09v-31.09h31.09v-31.09h31.09V62.19ZM404.22,311.37h-31.09v-31.09h31.09v31.09ZM404.22,186.56h-31.09v-31.09h31.09v31.09Z"/>
+      <path d="M310.94,124.37h31.09v-31.09h31.09v-31.09h31.09v-31.09H124.37v31.09h-31.09v31.09h-31.09v31.09h248.75ZM217.66,62.19h31.09v31.09h-31.09v-31.09Z"/>
+      <polygon class="cls-1" points="31.09 124.37 0 124.37 0 435.74 31.09 435.74 31.09 155.47 31.09 124.37"/>
+      <rect class="cls-1" x="31.09" y="93.28" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="62.19" y="62.19" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="93.28" y="31.09" width="31.09" height="31.09"/>
+      <polygon class="cls-1" points="435.31 31.09 435.31 0 124.37 0 124.37 31.09 404.22 31.09 435.31 31.09"/>
+      <polygon class="cls-1" points="31.09 435.74 31.09 466.84 342.03 466.84 342.03 435.74 310.94 435.74 31.09 435.74"/>
+      <rect class="cls-1" x="342.03" y="404.65" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="373.12" y="373.56" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="404.22" y="342.46" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="435.31" y="311.37" width="31.09" height="31.09"/>
+      <polygon class="cls-1" points="310.94 155.47 310.94 124.37 62.19 124.37 31.09 124.37 31.09 155.47 310.94 155.47"/>
+      <polygon class="cls-1" points="342.03 155.47 342.03 124.37 310.94 124.37 310.94 155.47 310.94 435.74 342.03 435.74 342.03 404.65 342.03 155.47"/>
+      <rect class="cls-1" x="342.03" y="93.28" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="373.12" y="62.19" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="404.22" y="31.09" width="31.09" height="31.09"/>
+      <polygon class="cls-1" points="435.31 0 435.31 31.09 435.31 62.19 435.31 311.37 466.4 311.37 466.4 0 435.31 0"/>
+      <rect class="cls-1" x="373.12" y="155.47" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="373.12" y="280.27" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="155.47" y="280.27" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="217.66" y="62.19" width="31.09" height="31.09"/>
+      <rect class="cls-1" x="248.75" y="280.27" width="31.09" height="124.37"/>
+      <rect class="cls-1" x="62.19" y="186.56" width="31.09" height="124.81"/>
+    </g>
+  </g>
+</svg>

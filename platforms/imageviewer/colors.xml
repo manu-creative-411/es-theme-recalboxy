@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <band1>0B5CA8</band1>
+        <band2>1BA3E8</band2>
+        <band3>C9CED6</band3>
+        <band4>22262B</band4>
+        <systemLogo>./platforms/imageviewer/images/logo.png</systemLogo>
+    </variables>
+</theme>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <!-- Menu look ported from the Recalbox theme ("light blue icons" menu): fonts, sizes and icons. Colors come from the palette (colors/*.xml): dark palettes get a menu themed with their background color and a dark veil; light palettes keep the light menu. -->
+    <view name="menu">
+        <menuBackground name="menubg">
+          <color>${menuBackgroundColor}</color>
+          <!-- Veil over the whole screen while a menu is open; one tiny PNG per palette (core/images/fade/<colorset>.png) -->
+          <fadePath>./core/images/fade/${subset.colorset}.png</fadePath>
+        </menuBackground>
+        <menuText name="menutext">
+          <fontPath>${themePath}/core/fonts/Bariol_Regular.otf</fontPath>
+          <fontSize>0.035</fontSize>
+          <color>${menuTextColor}</color>
+          <separatorColor>${menuSeparatorColor}</separatorColor>
+          <selectorColor>${menuSelectorColor}</selectorColor>
+          <selectedColor>${menuSelectedColor}</selectedColor>
+        </menuText>
+        <menuText name="menutitle">
+          <fontPath>${themePath}/core/fonts/Bariol_Regular.otf</fontPath>
+          <fontSize>0.04</fontSize>
+          <color>${menuTitleColor}</color>
+        </menuText>
+        <menuText name="menufooter">
+          <fontPath>${themePath}/core/fonts/Bariol_Regular_Italic.otf</fontPath>
+          <fontSize>0.025</fontSize>
+          <color>${menuFooterColor}</color>
+        </menuText>
+        <menuTextSmall name="menutextsmall">
+          <fontPath>${themePath}/core/fonts/Bariol_Regular.otf</fontPath>
+          <fontSize>0.028</fontSize>
+          <color>${menuTextColor}</color>
+        </menuTextSmall>
+        <!-- Section headers of the menus (e.g. "SETTINGS", "SCREEN OPTIONS"): Bariol Bold, accent color and a background shade different from the panel -->
+        <menuGroup name="menugroup">
+          <fontPath>${themePath}/core/fonts/Bariol-Bold.ttf</fontPath>
+          <fontSize>0.028</fontSize>
+          <color>${menuSectionColor}</color>
+          <backgroundColor>${menuSectionBackgroundColor}</backgroundColor>
+          <separatorColor>${menuSeparatorColor}</separatorColor>
+        </menuGroup>
+        <menuIcons name="menuicons">
+          <iconKodi>${themePath}/core/images/menu_icons/Kodi.png</iconKodi>
+          <iconSystem>${themePath}/core/images/menu_icons/System.png</iconSystem>
+          <iconUpdates>${themePath}/core/images/menu_icons/Updates.png</iconUpdates>
+          <iconGames>${themePath}/core/images/menu_icons/Games.png</iconGames>
+          <iconControllers>${themePath}/core/images/menu_icons/Controllers.png</iconControllers>
+          <iconUI>${themePath}/core/images/menu_icons/UI.png</iconUI>
+          <iconSound>${themePath}/core/images/menu_icons/Sound.png</iconSound>
+          <iconNetwork>${themePath}/core/images/menu_icons/Network.png</iconNetwork>
+          <iconScraper>${themePath}/core/images/menu_icons/Scraper.png</iconScraper>
+          <iconAdvanced>${themePath}/core/images/menu_icons/Advanced.png</iconAdvanced>
+          <iconQuit>${themePath}/core/images/menu_icons/Quit.png</iconQuit>
+          <iconRestart>${themePath}/core/images/menu_icons/Restart.png</iconRestart>
+          <iconShutdown>${themePath}/core/images/menu_icons/Shutdown.png</iconShutdown>
+          <iconFastShutdown>${themePath}/core/images/menu_icons/Fastshutdown.png</iconFastShutdown>
+          <iconLicense>${themePath}/core/images/menu_icons/License.png</iconLicense>
+          <iconRecalboxRGBDual>${themePath}/core/images/menu_icons/RRGBD.png</iconRecalboxRGBDual>
+          <iconTate>${themePath}/core/images/menu_icons/Tate.png</iconTate>
+          <iconArcade>${themePath}/core/images/menu_icons/Arcade.png</iconArcade>
+          <iconDownload>${themePath}/core/images/menu_icons/Download.png</iconDownload>
+        </menuIcons>
+    </view>
+</theme>

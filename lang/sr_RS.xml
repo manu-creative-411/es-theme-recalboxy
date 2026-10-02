@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Objavljeno</langLabelReleasedate>
+        <langLabelDeveloper>Programer</langLabelDeveloper>
+        <langLabelPublisher>Izdavač</langLabelPublisher>
+        <langLabelGenre>Žanr</langLabelGenre>
+        <langLabelPlayers>Igrači</langLabelPlayers>
+        <langLabelLastPlayed>Poslednje igrano</langLabelLastPlayed>
+        <langLabelPlayTime>Vreme Igre</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

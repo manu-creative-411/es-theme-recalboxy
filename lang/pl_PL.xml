@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Wydano</langLabelReleasedate>
+        <langLabelDeveloper>Deweloper</langLabelDeveloper>
+        <langLabelPublisher>Wydawca</langLabelPublisher>
+        <langLabelGenre>Gatunek</langLabelGenre>
+        <langLabelPlayers>Liczba Graczy</langLabelPlayers>
+        <langLabelLastPlayed>Ostatnio Grane</langLabelLastPlayed>
+        <langLabelPlayTime>Czas Rozgrywki</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

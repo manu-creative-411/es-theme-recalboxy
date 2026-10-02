@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sony Electronics</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1994</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Units sold:  102.49 million</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Best-selling game:  Gran Turismo</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>CPU:  32-bit MIPS R3000A @ 33.8688 MHz</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>RAM:  2 MB / VRAM:  1 MB</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Graphics:  Custom Sony/Toshiba 32-bit GPU</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Sound:  24 channels, 16-bit stereo @ 44.1 kHz</text>
+        </text>
+        <text name="info9" extra="true">
+          <text>Media:  CD-ROM</text>
+        </text>
+    </view>
+</theme>

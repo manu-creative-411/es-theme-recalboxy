@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Palette ported from the Recalbox theme colorset "recalbox" (named Slate, after the theme this one derives from). Carousel/counter/rating/dimmed values are derived (not in Recalbox). -->
+<theme>
+    <variables>
+        <backgroundColor>35495E</backgroundColor>
+        <statusColor>FFFFFF</statusColor>
+        <systemCarouselColor>5F85ACD8</systemCarouselColor>
+        <systemCarouselTextColor>F0F0F0</systemCarouselTextColor>
+        <systemGameCounterColor>F0F0F0</systemGameCounterColor>
+        <systemGameCounterBackgroundColor>2A3A4BD8</systemGameCounterBackgroundColor>
+        <systemInfoTextColor>FFFFFF</systemInfoTextColor>
+        <systemHelpColor>FFFFFF</systemHelpColor>
+        <systemHelpColorDimmed>E1E4E7</systemHelpColorDimmed>
+        <gamelistBackFrameColor>2A3A4B</gamelistBackFrameColor>
+        <gamelistTextlistSelectorColor>5F85AC</gamelistTextlistSelectorColor>
+        <gamelistTextlistSelectedColor>FFFFFF</gamelistTextlistSelectedColor>
+        <gamelistTextlistPrimaryColor>FFFFFF</gamelistTextlistPrimaryColor>
+        <gamelistTextlistSecondaryColor>4D4D4D</gamelistTextlistSecondaryColor>
+        <gamelistCollectionsHeaderColor>FFFFFF</gamelistCollectionsHeaderColor>
+        <gamelistDefaultTextColor>FFFFFF</gamelistDefaultTextColor>
+        <gamelistInfoColor>FFFFFF</gamelistInfoColor>
+        <gamelistRatingColor>FFFFFF</gamelistRatingColor>
+        <gamelistHelpColor>FFFFFF</gamelistHelpColor>
+        <gamelistHelpColorDimmed>E1E4E7</gamelistHelpColorDimmed>
+        <menuHelpColor>FFFFFF</menuHelpColor>
+        <systemSelectorColor>596A7B</systemSelectorColor>
+        <menuBackgroundColor>F1F1F1CC</menuBackgroundColor>
+        <menuTextColor>35495EFF</menuTextColor>
+        <menuTitleColor>35495EFF</menuTitleColor>
+        <menuSeparatorColor>35495EFF</menuSeparatorColor>
+        <menuSelectorColor>35495EFF</menuSelectorColor>
+        <menuSelectedColor>FFFFFFCC</menuSelectedColor>
+        <menuFooterColor>808080FF</menuFooterColor>
+        <menuSectionColor>446283FF</menuSectionColor>
+        <!-- Clock, controller/battery indicators and help bar (drawn over the menu veil) -->
+        <overlayColor>FFFFFF</overlayColor>
+        <menuSectionBackgroundColor>DEE0E2CC</menuSectionBackgroundColor>
+    </variables>
+</theme>

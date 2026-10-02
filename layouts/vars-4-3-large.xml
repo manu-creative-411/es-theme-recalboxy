@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <helpsystemFontSize>0.028</helpsystemFontSize>
+        <systemInfoSize>0.46 0.03</systemInfoSize>
+        <systemInfoFontSize>0.0238</systemInfoFontSize>
+        <systemInfoPos1>0.34 0.680</systemInfoPos1>
+        <systemInfoPos2>0.34 0.705</systemInfoPos2>
+        <systemInfoPos3>0.34 0.730</systemInfoPos3>
+        <systemInfoPos4>0.34 0.755</systemInfoPos4>
+        <systemInfoPos5>0.34 0.795</systemInfoPos5>
+        <systemInfoPos6>0.34 0.820</systemInfoPos6>
+        <systemInfoPos7>0.34 0.845</systemInfoPos7>
+        <systemInfoPos8>0.34 0.870</systemInfoPos8>
+        <systemInfoPos9>0.34 0.895</systemInfoPos9>
+        <systemInfoPos10>0.34 0.920</systemInfoPos10>
+        <gamelistFontSize>0.03165</gamelistFontSize>
+        <gamelistInfoFontSize>0.029</gamelistInfoFontSize>
+        <descriptionFontSize>0.025</descriptionFontSize>
+        <metadataFontSize>0.0235</metadataFontSize>
+        <ratingSize>0 0.03</ratingSize>
+        <badgesSize>0.14 0.235</badgesSize>
+    </variables>
+</theme>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <band1>E04E9B</band1>
+        <band2>7B4BD8</band2>
+        <band3>22D3C5</band3>
+        <band4>2B2E3A</band4>
+        <systemLogo>./platforms/emuconfig/images/logo.png</systemLogo>
+    </variables>
+</theme>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Visual Pinball is a source-available game engine for</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>simulating pinball tables and similar devices. There</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>are many tables available, both original designs as</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>well as recreations of physical machines.</text>
+        </text>
+    </view>
+</theme>

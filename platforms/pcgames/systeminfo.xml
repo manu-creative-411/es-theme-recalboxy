@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>PC Games gathers the native computer titles that</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>do not belong to any console: indie gems, classic</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>shooters, strategy epics and desktop favorites.</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Keyboard, mouse or gamepad, they all live here side</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>by side. A cozy corner of the library for the games</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>once played at the desk, now ready for the couch.</text>
+        </text>
+    </view>
+</theme>

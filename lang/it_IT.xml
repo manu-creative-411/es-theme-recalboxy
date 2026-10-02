@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Data Uscita</langLabelReleasedate>
+        <langLabelDeveloper>Sviluppatore</langLabelDeveloper>
+        <langLabelPublisher>Casa Editrice</langLabelPublisher>
+        <langLabelGenre>Genere</langLabelGenre>
+        <langLabelPlayers>Nr. Giocatori</langLabelPlayers>
+        <langLabelLastPlayed>Ultima Partita</langLabelLastPlayed>
+        <langLabelPlayTime>Tempo Di Gioco</langLabelPlayTime>
+        <subsetColorset>Schema colori</subsetColorset>
+        <subsetFontSize>Dimensione carattere</subsetFontSize>
+        <subsetSystemInfo>Info sistema</subsetSystemInfo>
+        <langMedium>Media</langMedium>
+        <langLarge>Grande</langLarge>
+        <langShow>Mostra</langShow>
+        <langHide>Nascondi</langHide>
+    </variables>
+</theme>

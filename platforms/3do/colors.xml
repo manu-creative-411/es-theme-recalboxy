@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <band1>FF0000</band1>
+        <band2>0000A0</band2>
+        <band3>FFE41B</band3>
+        <band4>23B14D</band4>
+    </variables>
+</theme>

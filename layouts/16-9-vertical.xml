@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <carousel name="systemcarousel">
+          <pos>0 0.40</pos>
+          <size>1 0.20</size>
+          <maxLogoCount>1.85</maxLogoCount>
+          <logoSize>0.38 0.11</logoSize>
+          <logoScale>1.3</logoScale>
+        </carousel>
+        <text name="systemInfo">
+          <pos>0.5 0.619</pos>
+          <size>1 0.038</size>
+          <origin>0.5 0.5</origin>
+          <fontSize>0.037</fontSize>
+        </text>
+        <image name="consolegame" extra="true">
+          <pos>0.02 0.376</pos>
+          <maxSize>0.45 0.2</maxSize>
+        </image>
+        <image name="controller" extra="true">
+          <pos>0.77 0.376</pos>
+          <maxSize>0.12 0.14</maxSize>
+        </image>
+        <text name="info1" extra="true">
+          <pos>${systemInfoPos1}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info2" extra="true">
+          <pos>${systemInfoPos2}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info3" extra="true">
+          <pos>${systemInfoPos3}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info4" extra="true">
+          <pos>${systemInfoPos4}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info5" extra="true">
+          <pos>${systemInfoPos5}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info6" extra="true">
+          <pos>${systemInfoPos6}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info7" extra="true">
+          <pos>${systemInfoPos7}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info8" extra="true">
+          <pos>${systemInfoPos8}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info9" extra="true">
+          <pos>${systemInfoPos9}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <text name="info10" extra="true">
+          <pos>${systemInfoPos10}</pos>
+          <size>${systemInfoSize}</size>
+          <fontSize>${systemInfoFontSize}</fontSize>
+        </text>
+        <helpsystem name="help">
+          <pos>0.012 0.982</pos>
+          <fontSize>${helpsystemFontSize}</fontSize>
+        </helpsystem>
+    </view>
+    <view name="basic, detailed, video, grid">
+        <image name="logo">
+          <pos>0.78 0.17</pos>
+          <maxSize>0.30 0.10</maxSize>
+        </image>
+        <text name="logoText">
+          <pos>0.78 0.17</pos>
+          <size>0.3 0.06</size>
+          <fontSize>0.05</fontSize>
+        </text>
+        <image name="consolegame" extra="true">
+          <pos>0.02 0.17</pos>
+          <maxSize>0.35 0.12</maxSize>
+        </image>
+        <helpsystem name="help">
+          <pos>0.012 0.982</pos>
+          <fontSize>${helpsystemFontSize}</fontSize>
+        </helpsystem>
+    </view>
+    <view name="basic">
+        <textlist name="gamelist">
+          <pos>0.04 0.201</pos>
+          <size>0.92 0.71</size>
+          <alignment>center</alignment>
+          <fontSize>${gamelistFontSize}</fontSize>
+        </textlist>
+        <image name="frame1" extra="true">
+          <pos>0.02 0.19</pos>
+          <size>0.96 0.735</size>
+          <path>./core/images/frame.png</path>
+          <color>${gamelistBackFrameColor}</color>
+          <zIndex>10</zIndex>
+        </image>
+    </view>
+    <view name="detailed, video">
+        <textlist name="gamelist">
+          <pos>0.025 0.201</pos>
+          <size>0.39 0.711</size>
+          <fontSize>${gamelistFontSize}</fontSize>
+        </textlist>
+        <image name="frame2" extra="true">
+          <pos>0.02 0.19</pos>
+          <size>0.4 0.735</size>
+          <path>./core/images/frame.png</path>
+          <color>${gamelistBackFrameColor}</color>
+          <zIndex>10</zIndex>
+        </image>
+        <image name="frame3" extra="true">
+          <pos>0.44 0.19</pos>
+          <size>0.54 0.735</size>
+          <path>./core/images/frame.png</path>
+          <color>${gamelistBackFrameColor}</color>
+          <zIndex>10</zIndex>
+        </image>
+        <text name="md_lbl_releasedate">
+          <pos>0.454 0.535</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_lbl_developer">
+          <pos>0.62 0.535</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_lbl_publisher">
+          <pos>0.79 0.535</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_lbl_genre">
+          <pos>0.454 0.59</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_lbl_players">
+          <pos>0.62 0.59</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_lbl_lastplayed">
+          <visible>false</visible>
+        </text>
+        <text name="md_lbl_gametime">
+          <pos>0.79 0.59</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <datetime name="md_releasedate">
+          <pos>0.454 0.558</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </datetime>
+        <text name="md_developer">
+          <pos>0.62 0.558</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_publisher">
+          <pos>0.79 0.558</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_genre">
+          <pos>0.454 0.613</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_players">
+          <pos>0.62 0.613</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <datetime name="md_lastplayed">
+          <visible>false</visible>
+        </datetime>
+        <text name="md_gametime">
+          <pos>0.79 0.613</pos>
+          <size>0.155 0.02</size>
+          <fontSize>${metadataFontSize}</fontSize>
+        </text>
+        <text name="md_description">
+          <pos>0.454 0.655</pos>
+          <size>0.384 0.262</size>
+          <fontSize>${descriptionFontSize}</fontSize>
+        </text>
+        <rating name="md_rating">
+          <pos>0.453 0.203</pos>
+          <size>${ratingSize}</size>
+        </rating>
+        <text name="e_gamecount" extra="true">
+          <pos>0.723 0.192</pos>
+          <size>0.24 0.042</size>
+          <fontSize>${gamelistInfoFontSize}</fontSize>
+        </text>
+        <text name="e_collectionsystem" extra="true">
+          <pos>0.42 0.174</pos>
+          <size>0.214 0.025</size>
+          <visible>false</visible>
+        </text>
+    </view>
+    <view name="detailed">
+        <image name="md_image">
+          <pos>0.708 0.38</pos>
+          <maxSize>0.506 0.29</maxSize>
+          <origin>0.5 0.5</origin>
+          <zIndex>30</zIndex>
+        </image>
+    </view>
+    <view name="video">
+        <video name="md_video">
+          <pos>0.708 0.38</pos>
+          <maxSize>0.506 0.29</maxSize>
+          <origin>0.5 0.5</origin>
+          <delay>1.7</delay>
+          <showSnapshotNoVideo>true</showSnapshotNoVideo>
+          <showSnapshotDelay>true</showSnapshotDelay>
+          <zIndex>31</zIndex>
+        </video>
+    </view>
+    <view name="grid">
+        <imagegrid name="gamegrid">
+          <pos>0.04 0.215</pos>
+          <size>0.92 0.69</size>
+          <margin>0.012 0.02</margin>
+          <autoLayout>5 3</autoLayout>
+          <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
+          <imageSource>thumbnail</imageSource>
+          <scrollSound>./core/sounds/scroll.wav</scrollSound>
+          <zIndex>20</zIndex>
+        </imagegrid>
+        <gridtile name="default">
+          <backgroundColor>${gamelistBackFrameColor}</backgroundColor>
+          <backgroundCenterColor>${gamelistBackFrameColor}</backgroundCenterColor>
+          <backgroundEdgeColor>${gamelistBackFrameColor}</backgroundEdgeColor>
+        </gridtile>
+        <gridtile name="selected">
+          <backgroundColor>${gamelistTextlistSelectorColor}</backgroundColor>
+          <backgroundCenterColor>${gamelistTextlistSelectorColor}</backgroundCenterColor>
+          <backgroundEdgeColor>${gamelistTextlistSelectorColor}</backgroundEdgeColor>
+        </gridtile>
+        <image name="frame1" extra="true">
+          <pos>0.02 0.19</pos>
+          <size>0.96 0.735</size>
+          <path>./core/images/frame.png</path>
+          <color>${gamelistBackFrameColor}</color>
+          <zIndex>10</zIndex>
+        </image>
+    </view>
+</theme>

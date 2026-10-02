@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Lanzamiento</langLabelReleasedate>
+        <langLabelDeveloper>Desarrollador</langLabelDeveloper>
+        <langLabelPublisher>Compañia</langLabelPublisher>
+        <langLabelGenre>Genero</langLabelGenre>
+        <langLabelPlayers>Jugadores</langLabelPlayers>
+        <langLabelLastPlayed>Ultima Vez Jugado</langLabelLastPlayed>
+        <langLabelPlayTime>Tiempo De Juego</langLabelPlayTime>
+        <subsetColorset>Esquema de color</subsetColorset>
+        <subsetFontSize>Tamaño de fuente</subsetFontSize>
+        <subsetSystemInfo>Info del sistema</subsetSystemInfo>
+        <langMedium>Mediano</langMedium>
+        <langLarge>Grande</langLarge>
+        <langShow>Mostrar</langShow>
+        <langHide>Ocultar</langHide>
+        <subsetHelpIcons>Iconos de ayuda</subsetHelpIcons>
+        <langHelpDefault>Por defecto (Batocera)</langHelpDefault>
+        <langHelpXbox>Xbox</langHelpXbox>
+        <langHelpPlaystation>PlayStation</langHelpPlaystation>
+        <langHelpSnes>SNES</langHelpSnes>
+        <langHelpButtons>Genéricos (4 botones)</langHelpButtons>
+        <langHelp6Buttons>Genéricos (6 botones)</langHelp6Buttons>
+        <langHelp8Buttons>Genéricos (8 botones)</langHelp8Buttons>
+        <langPalSlate>Slate</langPalSlate>
+        <langPalDefault>Estándar</langPalDefault>
+        <langPalDarker>Más oscuro</langPalDarker>
+        <langPalBlackWhite>Blanco y negro</langPalBlackWhite>
+        <langPalWhiteBlack>Negro y blanco</langPalWhiteBlack>
+        <langPalBlue>Azul</langPalBlue>
+        <langPalGreen>Verde</langPalGreen>
+        <langPalGrey>Gris</langPalGrey>
+        <langPalOrange>Naranja</langPalOrange>
+        <langPalPink>Rosa</langPalPink>
+        <langPalPurple>Morado</langPalPurple>
+        <langPalGameCube>Morado GameCube</langPalGameCube>
+        <langPalRed>Rojo</langPalRed>
+        <langPalYellow>Amarillo</langPalYellow>
+        <langHelpSnesAlt>SNES alt</langHelpSnesAlt>
+        <langHelpXboxOne>Xbox One</langHelpXboxOne>
+        <langHelpArcade>Arcade</langHelpArcade>
+        <subsetSystemView>Lista de consolas</subsetSystemView>
+        <langSystemHorizontal>Horizontal</langSystemHorizontal>
+        <langSystemVertical>Vertical (izquierda)</langSystemVertical>
+        <subsetRatingIcons>Iconos de valoración</subsetRatingIcons>
+        <langRatingSystem>Por plataforma</langRatingSystem>
+        <langRatingStandard>Estándar</langRatingStandard>
+    </variables>
+</theme>

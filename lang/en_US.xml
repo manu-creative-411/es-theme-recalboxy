@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>Released</langLabelReleasedate>
+        <langLabelDeveloper>Developer</langLabelDeveloper>
+        <langLabelPublisher>Publisher</langLabelPublisher>
+        <langLabelGenre>Genre</langLabelGenre>
+        <langLabelPlayers>Players</langLabelPlayers>
+        <langLabelLastPlayed>Last Played</langLabelLastPlayed>
+        <langLabelPlayTime>Play Time</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+        <subsetHelpIcons>Help icons</subsetHelpIcons>
+        <langHelpDefault>Default (Batocera)</langHelpDefault>
+        <langHelpXbox>Xbox</langHelpXbox>
+        <langHelpPlaystation>PlayStation</langHelpPlaystation>
+        <langHelpSnes>SNES</langHelpSnes>
+        <langHelpButtons>Generic (4 buttons)</langHelpButtons>
+        <langHelp6Buttons>Generic (6 buttons)</langHelp6Buttons>
+        <langHelp8Buttons>Generic (8 buttons)</langHelp8Buttons>
+        <langPalSlate>Slate</langPalSlate>
+        <langPalDefault>Standard</langPalDefault>
+        <langPalDarker>Darker</langPalDarker>
+        <langPalBlackWhite>Black and white</langPalBlackWhite>
+        <langPalWhiteBlack>White and black</langPalWhiteBlack>
+        <langPalBlue>Blue</langPalBlue>
+        <langPalGreen>Green</langPalGreen>
+        <langPalGrey>Grey</langPalGrey>
+        <langPalOrange>Orange</langPalOrange>
+        <langPalPink>Pink</langPalPink>
+        <langPalPurple>Purple</langPalPurple>
+        <langPalGameCube>GameCube</langPalGameCube>
+        <langPalRed>Red</langPalRed>
+        <langPalYellow>Yellow</langPalYellow>
+        <langHelpSnesAlt>SNES alt</langHelpSnesAlt>
+        <langHelpXboxOne>Xbox One</langHelpXboxOne>
+        <langHelpArcade>Arcade</langHelpArcade>
+        <subsetSystemView>System list</subsetSystemView>
+        <langSystemHorizontal>Horizontal</langSystemHorizontal>
+        <langSystemVertical>Vertical (left)</langSystemVertical>
+        <subsetRatingIcons>Rating icons</subsetRatingIcons>
+        <langRatingSystem>Per platform</langRatingSystem>
+        <langRatingStandard>Standard</langRatingStandard>
+    </variables>
+</theme>

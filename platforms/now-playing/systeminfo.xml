@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Now Playing is the spotlight of your library: the</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>games and experiences you are into right now, kept</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>within reach of a single button press.</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>No lists to maintain and no folders to sort. Pick up</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>where you left off and let the rest of the catalog</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>wait quietly in the background.</text>
+        </text>
+    </view>
+</theme>

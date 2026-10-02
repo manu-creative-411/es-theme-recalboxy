@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <view name="screen">
+    <text name="clock">
+      <pos>0.018 0.014</pos>
+      <size>0.09 0.045</size>
+      <alignment>left</alignment>
+      <fontSize>0.033</fontSize>
+      <color>${overlayColor}</color>
+      <fontPath>${regularFont}</fontPath>
+    </text>
+    <controllerActivity name="controllerActivity">
+      <pos>0.02 0.02</pos>
+      <size>0.08 0.04</size>
+      <horizontalAlignment>right</horizontalAlignment>
+      <itemSpacing>0.005</itemSpacing>
+      <color>${overlayColor}</color>
+      <activityColor>39FF14FF</activityColor>
+      <hotkeyColor>39FF14FF</hotkeyColor>
+    </controllerActivity>
+    <batteryIndicator name="batteryIndicator">
+      <pos>0.958 0.014</pos>
+      <size>0.03 0.032</size>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>${overlayColor}</color>
+    </batteryIndicator>
+  </view>
+</theme>

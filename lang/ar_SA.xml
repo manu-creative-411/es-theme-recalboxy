@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <langLabelReleasedate>تاريخ الإصدار</langLabelReleasedate>
+        <langLabelDeveloper>المطور</langLabelDeveloper>
+        <langLabelPublisher>الناشر</langLabelPublisher>
+        <langLabelGenre>النوع</langLabelGenre>
+        <langLabelPlayers>اللاعبون</langLabelPlayers>
+        <langLabelLastPlayed>لعب آخر مرة</langLabelLastPlayed>
+        <langLabelPlayTime>وقت اللعب</langLabelPlayTime>
+        <subsetColorset>Color set</subsetColorset>
+        <subsetFontSize>Font size</subsetFontSize>
+        <subsetSystemInfo>System info</subsetSystemInfo>
+        <langMedium>Medium</langMedium>
+        <langLarge>Large</langLarge>
+        <langShow>Show</langShow>
+        <langHide>Hide</langHide>
+    </variables>
+</theme>

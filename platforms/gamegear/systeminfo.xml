@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1990</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Units sold:  10.62 million</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>CPU:  8-bit Zilog Z80 @ 3.58 MHz</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>RAM:  8 KB / VRAM:  16 KB</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Graphics:  Sega VDP (custom TI TMS9918)</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Screen:  3.2 inch (81 mm) backlit LCD</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Resolution:  160×146 pixels, 32 colors (4096 color palette)</text>
+        </text>
+        <text name="info9" extra="true">
+          <text>Sound:  TI SN76489 PSG</text>
+        </text>
+        <text name="info10" extra="true">
+          <text>Cart size:  32 KB to 1 MB</text>
+        </text>
+    </view>
+</theme>

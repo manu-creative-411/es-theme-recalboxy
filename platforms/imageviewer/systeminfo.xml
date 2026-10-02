@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <view name="system">
+    <text name="info1" extra="true">
+      <text>This is the gallery of your adventures: every</text>
+    </text>
+    <text name="info2" extra="true">
+      <text>screenshot captured while playing, gathered in one</text>
+    </text>
+    <text name="info3" extra="true">
+      <text>place and ready to browse like a photo album.</text>
+    </text>
+    <text name="info5" extra="true">
+      <text>Relive a perfect boss fight or a lucky high score,</text>
+    </text>
+    <text name="info6" extra="true">
+      <text>then show it to your friends. Who will be the best</text>
+    </text>
+    <text name="info7" extra="true">
+      <text>player...?</text>
+    </text>
+  </view>
+</theme>

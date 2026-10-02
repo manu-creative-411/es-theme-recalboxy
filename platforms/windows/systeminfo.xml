@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Windows is a group of proprietary graphical operating</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>systems developed and marketed by Microsoft.</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Introduced in 1985 it would become the dominant choice</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>for desktop computers and has remained so to this day.</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>This also means that there is a massive games library</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>available for the platform spanning multiple decades</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>and all conceivable genres.</text>
+        </text>
+    </view>
+</theme>

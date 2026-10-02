@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="detailed, video">
+        <rating name="md_rating">
+          <color>FFFFFFFF</color>
+          <filledPath>${themePath}/platforms/lutro/images/rating_filled.svg</filledPath>
+          <unfilledPath>${themePath}/platforms/lutro/images/rating_empty.svg</unfilledPath>
+        </rating>
+    </view>
+</theme>
