@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Duke Nukem 3D (1996)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  3D Realms</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Engine:  Build</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  First-person shooter</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Port:  EDuke32, an enhanced source port</text>
+        </text>
+    </view>
+</theme>

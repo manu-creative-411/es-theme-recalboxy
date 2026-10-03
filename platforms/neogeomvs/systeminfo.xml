@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Model:  Neo Geo MVS, the arcade cabinet (1990)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Manufacturer:  SNK</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Released:  1990</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Units sold:  980,000</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Best-selling game:  The King of Fighters '95</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>CPU:  16-bit Motorola 68000 @ 12 MHz + 8-bit Zilog Z80A @ 4 MHz</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>RAM:  64 KB / VRAM:  84 KB / Sound RAM:  2 KB</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Resolution:  320×224 pixels, 4096 colors (65,536 color palette)</text>
+        </text>
+        <text name="info9" extra="true">
+          <text>Sound:  Yamaha YM2610</text>
+        </text>
+    </view>
+</theme>

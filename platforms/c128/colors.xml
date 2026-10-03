@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/c128/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>B8B09A</band1>
+        <band2>3F3B34</band2>
+        <band3>E4DFD0</band3>
+        <band4>211F1B</band4>
     </variables>
 </theme>

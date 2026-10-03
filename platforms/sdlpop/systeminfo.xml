@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Prince of Persia (1989)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Jordan Mechner</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Port:  SDLPoP</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Cinematic platformer</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Faithful port with quality-of-life options</text>
+        </text>
+    </view>
+</theme>

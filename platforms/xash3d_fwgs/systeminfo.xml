@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Xash3D FWGS</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Engine:  Half-Life (GoldSrc) compatible</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Developer:  Xash3D FWGS fork</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  First-person shooter engine</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Runs Half-Life and many mods</text>
+        </text>
+    </view>
+</theme>

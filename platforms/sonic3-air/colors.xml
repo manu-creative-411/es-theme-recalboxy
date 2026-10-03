@@ -5,5 +5,9 @@
         <systemLogo>./platforms/sonic3-air/images/logo.png</systemLogo>
         <gamelistLogo>./platforms/sonic3-air/images/logo.png</gamelistLogo>
         <systemConsoleImage>./platforms/sonic3-air/images/consolegame.webp</systemConsoleImage>
+        <band1>1E4EE8</band1>
+        <band2>B3121C</band2>
+        <band3>F2F2F2</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

@@ -6,5 +6,9 @@
         <gamelistLogo>./platforms/gemrb/images/logo.png</gamelistLogo>
         <systemConsoleImage>./platforms/gemrb/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>7B4EA3</band1>
+        <band2>1A1A1A</band2>
+        <band3>E8E8E8</band3>
+        <band4>3A3A3A</band4>
     </variables>
 </theme>

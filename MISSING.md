@@ -44,8 +44,9 @@
 Platforms added or completed from Carbon (see `CREDITS.md`) only got what Carbon has: a logo
 (`logo.svg`, `logo-w.svg`, or a raster `logo.webp` where Carbon has no vector one), a console picture
 (raster, `consolegame.webp`/`.png`) and a controller (`controller.svg`: white line-art, tinted with the
-palette's text color through `systemControllerTint`). They keep the default band colors and have no
-`systeminfo.xml`, so the technical-data lines of the system list stay empty for them.
+palette's text color through `systemControllerTint`). Carbon has no technical data or band colors, so
+those were written for Recalboxy afterwards: every platform folder now has its own `colors.xml` bands
+and `systeminfo.xml` (see `CREDITS.md`).
 
 `bk` and `dragon64` got console/controller images, band colors and system info from the Recalbox
 theme (recalbox-next v9), but still have no `images/logo.svg`: the system name is shown as text.

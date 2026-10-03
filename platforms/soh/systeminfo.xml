@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  The Legend of Zelda: Ocarina of Time</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Nintendo EAD</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Port:  Ship of Harkinian (HarbourMasters)</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Action-adventure</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  PC port with mods, requires a ROM</text>
+        </text>
+    </view>
+</theme>

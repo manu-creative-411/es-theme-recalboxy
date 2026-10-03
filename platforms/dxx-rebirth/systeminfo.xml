@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original games:  Descent and Descent II (1995)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Parallax Software</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Six-degrees-of-freedom shooter</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  DXX-Rebirth</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  OpenGL rendering and modern resolutions</text>
+        </text>
+    </view>
+</theme>

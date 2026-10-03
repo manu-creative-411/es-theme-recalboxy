@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Famicom / NES-compatible clone console</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Popular in:  Poland and Eastern Europe, 1990s</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Media:  Cartridges</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Plays many Famicom-style multicart games</text>
+        </text>
+    </view>
+</theme>

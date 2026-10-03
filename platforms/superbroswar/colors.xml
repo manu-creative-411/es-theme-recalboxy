@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/superbroswar/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>E3342F</band1>
+        <band2>2F5D9E</band2>
+        <band3>F2C230</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

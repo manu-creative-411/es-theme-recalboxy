@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/xrick/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>F2A900</band1>
+        <band2>2F5D9E</band2>
+        <band3>E8E8E8</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

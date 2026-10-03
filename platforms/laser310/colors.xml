@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/laser310/images/consolegame.webp</systemConsoleImage>
         <systemControllerImage>./platforms/laser310/images/controller.webp</systemControllerImage>
+        <band1>D6001C</band1>
+        <band2>1A1A1A</band2>
+        <band3>EDEDED</band3>
+        <band4>3F3F3F</band4>
     </variables>
 </theme>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Enterprise Computers</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1985</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Zilog Z80A @ 4 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  64 KB or 128 KB</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Graphics:  Nick chip, up to 256 colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  Dave chip, 4 channels, stereo</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  Cartridges, cassette, floppy disks</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Notes:  Enterprise 64 / 128, with a built-in joystick</text>
+        </text>
+    </view>
+</theme>

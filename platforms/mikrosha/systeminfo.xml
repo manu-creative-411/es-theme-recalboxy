@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Origin:  Soviet Union</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1985</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  KR580VM80A (Intel 8080 clone) @ 2 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Video:  Text and block graphics on a TV</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  Cassette tape</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  Hobbyist computer inspired by the Radio-86RK</text>
+        </text>
+    </view>
+</theme>

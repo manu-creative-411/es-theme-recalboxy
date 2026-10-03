@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Abuse (1996)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Crack dot Com</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Run and gun, side-scrolling</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Source:  Released in 1998 for the community</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Port:  Abuse SDL</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Notes:  Mouse aiming with keyboard movement</text>
+        </text>
+    </view>
+</theme>

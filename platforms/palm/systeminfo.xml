@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Palm, Inc.</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1996 (Pilot)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Motorola 68000 DragonBall</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Display:  160×160 monochrome or color touch screen</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>OS:  Palm OS</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  Internal memory and expansion cards</text>
+        </text>
+    </view>
+</theme>

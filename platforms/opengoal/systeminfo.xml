@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original games:  Jak and Daxter (2001 onwards)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Naughty Dog</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Port:  OpenGOAL, a native reimplementation</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  3D platformer</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Requires a copy of the original game</text>
+        </text>
+    </view>
+</theme>

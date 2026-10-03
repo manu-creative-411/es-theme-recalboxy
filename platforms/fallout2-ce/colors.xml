@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/fallout2-ce/images/consolegame.webp</systemConsoleImage>
+        <band1>2E7D32</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2C230</band3>
+        <band4>5A5A5A</band4>
     </variables>
 </theme>

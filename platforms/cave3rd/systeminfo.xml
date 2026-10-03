@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Cave</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Hardware:  Third-generation board (CV1000)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Hitachi SH-3 @ 133 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Bullet hell shoot 'em ups</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Games:  Mushihimesama, Ibara, Espgaluda II</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

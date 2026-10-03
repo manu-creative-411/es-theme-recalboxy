@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-runandgun/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-runandgun/images/logo.webp</gamelistLogo>
+        <band1>2F6F3F</band1>
+        <band2>E8302B</band2>
+        <band3>F2F2F2</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/pdark/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/pdark/images/logo.webp</gamelistLogo>
+        <band1>1E4EE8</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2F2F2</band3>
+        <band4>7A7A7A</band4>
     </variables>
 </theme>

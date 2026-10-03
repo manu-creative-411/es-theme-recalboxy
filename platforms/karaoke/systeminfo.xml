@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Karaoke</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Content:  Songs with lyrics on screen</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Format:  Karaoke files (e.g. CDG, KAR)</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Sing along from the list</text>
+        </text>
+    </view>
+</theme>

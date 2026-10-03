@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/hcl/images/consolegame.png</systemConsoleImage>
+        <band1>7A2E8C</band1>
+        <band2>1A1A1A</band2>
+        <band3>E8E8E8</band3>
+        <band4>C03A8A</band4>
     </variables>
 </theme>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Taito</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1987</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Motorola 68000 @ 8 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Sound:  Zilog Z80 + Yamaha YM2610</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Games:  Superman, Gigandes, Balloon Brothers</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

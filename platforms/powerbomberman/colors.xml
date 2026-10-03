@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/powerbomberman/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/powerbomberman/images/logo.webp</gamelistLogo>
+        <band1>F28C28</band1>
+        <band2>E8302B</band2>
+        <band3>F2C230</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

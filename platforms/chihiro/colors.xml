@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/chihiro/images/consolegame.png</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>0B4EA2</band1>
+        <band2>F2F2F2</band2>
+        <band3>E31E24</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

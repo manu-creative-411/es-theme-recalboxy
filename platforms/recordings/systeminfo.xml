@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Recordings</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Content:  Videos and screen recordings</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Notes:  Review captured gameplay</text>
+        </text>
+    </view>
+</theme>

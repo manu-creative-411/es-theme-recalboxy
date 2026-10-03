@@ -5,5 +5,9 @@
         <systemLogo>./platforms/gzdoom/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/gzdoom/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/gzdoom/images/consolegame.webp</systemConsoleImage>
+        <band1>B3121C</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2F2F2</band3>
+        <band4>7A7A7A</band4>
     </variables>
 </theme>

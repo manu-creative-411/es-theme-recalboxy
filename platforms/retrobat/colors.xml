@@ -6,5 +6,9 @@
         <gamelistLogo>./platforms/retrobat/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/retrobat/images/consolegame.png</systemConsoleImage>
         <systemControllerImage>./platforms/retrobat/images/controller.webp</systemControllerImage>
+        <band1>7B2E8A</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2F2F2</band3>
+        <band4>B84AD0</band4>
     </variables>
 </theme>

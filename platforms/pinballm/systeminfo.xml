@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Developer:  Zen Studios</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2019 (Pinball M)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Digital pinball for mobile</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Tables:  Selection from Pinball FX3 tables</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Platforms:  Mobile devices</text>
+        </text>
+    </view>
+</theme>

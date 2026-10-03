@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Nintendo</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2001 (Japan)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Type:  Game Boy Advance accessory</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Media:  Dot-code cards scanned with the reader</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Note:  Card-based games and NES titles</text>
+        </text>
+    </view>
+</theme>

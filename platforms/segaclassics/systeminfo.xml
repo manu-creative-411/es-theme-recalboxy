@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Publisher:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Collection:  Sega Classics</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Content:  Classic games from Sega's consoles and arcades</text>
+        </text>
+    </view>
+</theme>

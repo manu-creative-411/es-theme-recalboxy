@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Rick Dangerous (1989)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Core Design</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Platformer</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  XRick</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Open-source clone</text>
+        </text>
+    </view>
+</theme>

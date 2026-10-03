@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Raze, a Build engine source port</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Games:  Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Developer:  Christoph Oelckers (from EDuke32 / Blood)</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  First-person shooters</text>
+        </text>
+    </view>
+</theme>

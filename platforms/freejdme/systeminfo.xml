@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  FreeJ2ME</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Language:  Java</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Type:  J2ME (Java ME) emulator</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Platform:  Feature phones, 2000s era</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Runs mobile phone games (JAR files)</text>
+        </text>
+    </view>
+</theme>

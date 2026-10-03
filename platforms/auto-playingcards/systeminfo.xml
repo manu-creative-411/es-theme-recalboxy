@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Find all your card games in a single list.</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Poker, solitaire, blackjack and other card games.</text>
+        </text>
+    </view>
+</theme>

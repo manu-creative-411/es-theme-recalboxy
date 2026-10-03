@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Zaccaria</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Origin:  Bologna, Italy</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Medium:  Electro-mechanical and solid-state pinball</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Tables:  Pinball Champ, Farfalla, Magic Castle</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Note:  Classic Zaccaria tables in digital form</text>
+        </text>
+    </view>
+</theme>

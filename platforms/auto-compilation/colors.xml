@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-compilation/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-compilation/images/logo.webp</gamelistLogo>
+        <band1>7B5EA7</band1>
+        <band2>F2A900</band2>
+        <band3>F2F2F2</band3>
+        <band4>2A1F3A</band4>
     </variables>
 </theme>

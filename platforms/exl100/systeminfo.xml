@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Exelvision (France)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1984</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Texas Instruments TMS7020</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Video:  Thomson EF9345</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  Cartridges, cassette</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Controls:  Wireless infrared keyboard and joysticks</text>
+        </text>
+    </view>
+</theme>

@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/c16/images/consolegame.webp</systemConsoleImage>
+        <band1>2D6CB5</band1>
+        <band2>1F1F1F</band2>
+        <band3>B9B9B9</band3>
+        <band4>7A5A3C</band4>
     </variables>
 </theme>

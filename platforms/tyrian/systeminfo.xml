@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Tyrian (1995)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Eclipse Software</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Vertical shoot 'em up</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  OpenTyrian</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Tyrian 2.1 is freeware</text>
+        </text>
+    </view>
+</theme>

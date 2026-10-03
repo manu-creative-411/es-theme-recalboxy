@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-sportswithanimals/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-sportswithanimals/images/logo.webp</gamelistLogo>
+        <band1>8A5A2B</band1>
+        <band2>2F9E44</band2>
+        <band3>F2F2F2</band3>
+        <band4>2A1A0F</band4>
     </variables>
 </theme>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Atari</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1975 (Home Pong)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Hardware:  Discrete TTL logic, no CPU</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Pong</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Controls:  Paddles on the console</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  First home version of the arcade hit</text>
+        </text>
+    </view>
+</theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/vitaquake2/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>B3121C</band1>
+        <band2>2B2B2B</band2>
+        <band3>E8E8E8</band3>
+        <band4>7A7A7A</band4>
     </variables>
 </theme>

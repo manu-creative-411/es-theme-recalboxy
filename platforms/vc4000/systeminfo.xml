@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Interton (Germany)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1978</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Signetics 2650A @ 0.89 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Video:  Signetics 2636 PVI</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  Cartridges</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  Many clones were sold under other brands</text>
+        </text>
+    </view>
+</theme>

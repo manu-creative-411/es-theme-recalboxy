@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Wolfenstein 3D (1992)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  id Software</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  First-person shooter</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  ECWolf, with ZDoom features</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Also plays Spear of Destiny</text>
+        </text>
+    </view>
+</theme>

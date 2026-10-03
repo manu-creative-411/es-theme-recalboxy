@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1998 (Dreamcast VMU)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Sanyo LC86 series, 8-bit</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Memory:  128 KB flash</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Display:  48×32 monochrome LCD</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  Piezo speaker</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Note:  Memory card with a screen, buttons and mini-games</text>
+        </text>
+    </view>
+</theme>

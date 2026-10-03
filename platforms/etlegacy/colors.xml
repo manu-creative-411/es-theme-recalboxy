@@ -5,5 +5,9 @@
         <systemLogo>./platforms/etlegacy/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/etlegacy/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/etlegacy/images/consolegame.webp</systemConsoleImage>
+        <band1>3A5F3A</band1>
+        <band2>1A1A1A</band2>
+        <band3>E8E8E8</band3>
+        <band4>7A7A7A</band4>
     </variables>
 </theme>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  VGMPlay</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Video game music player</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Format:  VGM files (chip-logged music)</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Chips:  Emulates Yamaha, Sega and Namco sound chips</text>
+        </text>
+    </view>
+</theme>

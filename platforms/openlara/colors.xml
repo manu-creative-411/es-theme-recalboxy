@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/openlara/images/consolegame.webp</systemConsoleImage>
+        <band1>B8860B</band1>
+        <band2>1A1A1A</band2>
+        <band3>E8E8E8</band3>
+        <band4>5A5A5A</band4>
     </variables>
 </theme>

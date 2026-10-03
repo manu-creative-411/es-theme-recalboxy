@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Digital Equipment Corporation</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1959</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Architecture:  18-bit, transistorized</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Memory:  4,096 words of core memory</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Display:  Type 30 CRT</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  Home of Spacewar! (1962), one of the first video games</text>
+        </text>
+    </view>
+</theme>

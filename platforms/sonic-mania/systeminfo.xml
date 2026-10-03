@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Sonic Mania (2017)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Christian Whitehead / PagodaWest / Headcannon</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Engine:  Retro Engine v5</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  2D platformer</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Port:  Decompilation of the game</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Ion Fury (2019)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Voidpoint</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Engine:  EDuke32 (Build)</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Retro first-person shooter</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Created as Ion Maiden in early access</text>
+        </text>
+    </view>
+</theme>

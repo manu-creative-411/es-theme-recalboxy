@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Super Mario War</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Fan-made multiplayer platformer</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Competitive action</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Players:  Up to 4</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Free fan game, inspired by Super Mario Bros.</text>
+        </text>
+    </view>
+</theme>

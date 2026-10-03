@@ -29,3 +29,7 @@ Carbon artwork added in a later pass (platform folders, logos and white logos, c
 controllers `controller.svg` and the regional artwork in `platforms/*/images/us|jp|br/`): taken from the same Carbon theme
 (Rookervik / fabricecaruso fork, CC BY-NC-SA, same license as this theme). Raster images were converted from PNG to WebP.
 Region option, `tools/update-regions.sh` and the controller tint: written for this theme.
+
+Background music (`core/music/`): Recalbox Main Theme 00-05 by machette, 06 (SMB) and 07 (TETRIS) by djpostka, as distributed with recalbox-next. Used as the theme's exclusive music playlist (`views/common.xml`). See `NOTICE.md`.
+
+System information (`systeminfo.xml`) and band colors (`colors.xml`) for the 222 platforms that came from Carbon and had neither (hardware, arcade boards, source ports, stores, tools and `auto-*` collections): written for Recalboxy from general knowledge, not copied from any other theme, and covered by the theme's license. Palettes follow each platform's branding. Specifications and dates were not checked against sources, so some details may be inaccurate. Hack, region and duplicate-name folders (`nesh`, `gbah`, `megadrive-japan`, `3dsen`, ...) reuse their parent platform's data with a short note on top.

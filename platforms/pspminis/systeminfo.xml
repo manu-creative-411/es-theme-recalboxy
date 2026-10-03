@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sony</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2009</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Format:  Small downloadable games for PSP</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Size:  100 MB limit per game</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Distribution:  PlayStation Store</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  Also playable on PlayStation 3</text>
+        </text>
+    </view>
+</theme>

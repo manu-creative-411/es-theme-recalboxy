@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Cave Story (2004)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Daisuke Amaya (Pixel)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Metroidvania platformer</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  NXEngine, a clone of the game engine</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Free freeware game</text>
+        </text>
+    </view>
+</theme>

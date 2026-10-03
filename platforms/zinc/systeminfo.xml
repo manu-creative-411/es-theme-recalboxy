@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Hardware:  Sony ZN-1 and ZN-2, Taito FX1</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Based on:  PlayStation hardware</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  MIPS R3000A @ 33.8 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Street Fighter EX, Tekken, Rage Racer</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

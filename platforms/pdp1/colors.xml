@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/pdp1/images/consolegame.webp</systemConsoleImage>
         <systemControllerImage>./platforms/pdp1/images/controller.webp</systemControllerImage>
+        <band1>1A1A1A</band1>
+        <band2>C9302C</band2>
+        <band3>E3E3E3</band3>
+        <band4>555555</band4>
     </variables>
 </theme>

@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/gbah/images/consolegame.webp</systemConsoleImage>
+        <band1>5C67A9</band1>
+        <band2>280FBE</band2>
+        <band3>BCBCBC</band3>
+        <band4>212121</band4>
     </variables>
 </theme>

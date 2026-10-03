@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Developer:  Infocom</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Created:  1979 (virtual machine for text adventures)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Interactive fiction</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Zork, The Hitchhiker's Guide to the Galaxy</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Run through Z-machine interpreters</text>
+        </text>
+    </view>
+</theme>

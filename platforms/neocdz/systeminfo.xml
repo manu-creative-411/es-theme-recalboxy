@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Model:  Neo Geo CDZ (1996), faster CD drive, Japan only</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Manufacturer:  SNK</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Released:  1994</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Units sold:  570,000</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>CPU:  16-bit Motorola 68000 @ 12 MHz + 8-bit Zilog Z80A @ 4 MHz</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>RAM:  7 MB</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Resolution:  320×224 pixels, 4096 colors (65536 color palette)</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Sound:  Yamaha YM2610</text>
+        </text>
+    </view>
+</theme>

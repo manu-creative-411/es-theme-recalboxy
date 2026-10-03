@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Platform:  MSX computers with a LaserDisc player</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Hardware:  Pioneer PX-7 (1985) with video overlay</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Media:  LaserDisc</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Interactive laserdisc games</text>
+        </text>
+    </view>
+</theme>

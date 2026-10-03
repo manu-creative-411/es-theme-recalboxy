@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Theme Hospital (1997)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Bullfrog Productions</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Business simulation</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  CorsixTH, an open-source reimplementation</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Higher resolutions and modern OSes</text>
+        </text>
+    </view>
+</theme>

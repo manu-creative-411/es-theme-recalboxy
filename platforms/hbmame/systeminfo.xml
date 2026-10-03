@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  HBMAME (Homebrew MAME)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  MAME fork</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Content:  Homebrew games, hacks and bootlegs</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Uses MAME ROM sets with additions</text>
+        </text>
+    </view>
+</theme>

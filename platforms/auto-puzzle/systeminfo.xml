@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Find all your puzzle games in a single list.</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Logic, matching and block-falling games like Tetris.</text>
+        </text>
+    </view>
+</theme>

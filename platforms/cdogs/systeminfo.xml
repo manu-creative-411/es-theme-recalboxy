@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Cyberdogs (1994)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Ronny Wester</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Top-down run and gun</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  C-Dogs SDL</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Up to four players, split screen</text>
+        </text>
+    </view>
+</theme>

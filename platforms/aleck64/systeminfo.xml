@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Seta / Nintendo</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1998</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  NEC VR4300 @ 93.75 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>GPU:  SGI Reality Co-Processor @ 62.5 MHz</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>RAM:  4 MB RDRAM</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  Cartridges (arcade ROM boards)</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Note:  Arcade hardware based on the Nintendo 64</text>
+        </text>
+    </view>
+</theme>

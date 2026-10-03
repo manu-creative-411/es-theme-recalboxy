@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/opengoal/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/opengoal/images/logo.webp</gamelistLogo>
+        <band1>F28C28</band1>
+        <band2>1E4E8C</band2>
+        <band3>F2F2F2</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

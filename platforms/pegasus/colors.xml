@@ -5,5 +5,9 @@
         <systemLogo>./platforms/pegasus/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/pegasus/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/pegasus/images/consolegame.webp</systemConsoleImage>
+        <band1>C8102E</band1>
+        <band2>F2F2F2</band2>
+        <band3>1A1A1A</band3>
+        <band4>7A7A7A</band4>
     </variables>
 </theme>

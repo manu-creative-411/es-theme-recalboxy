@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Microsoft MakeCode Arcade</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Microsoft</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Language:  Blocks, JavaScript, Python</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Retro-style game creation</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Games can run on handheld hardware too</text>
+        </text>
+    </view>
+</theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-playingcards/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-playingcards/images/logo.webp</gamelistLogo>
+        <band1>B3121C</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2F2F2</band3>
+        <band4>2A2A2A</band4>
     </variables>
 </theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/starship/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/starship/images/logo.webp</gamelistLogo>
+        <band1>2F5D9E</band1>
+        <band2>F2C230</band2>
+        <band3>F2F2F2</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

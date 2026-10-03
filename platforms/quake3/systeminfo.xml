@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Quake III Arena (1999)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  id Software</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Engine:  id Tech 3</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Arena first-person shooter</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Port:  ioquake3</text>
+        </text>
+    </view>
+</theme>

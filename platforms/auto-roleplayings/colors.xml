@@ -5,5 +5,9 @@
         <systemLogo>./platforms/auto-roleplayings/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-roleplayings/images/logo.webp</gamelistLogo>
         <systemControllerTint>true</systemControllerTint>
+        <band1>7B5EA7</band1>
+        <band2>F2C230</band2>
+        <band3>F2F2F2</band3>
+        <band4>2A1F3A</band4>
     </variables>
 </theme>

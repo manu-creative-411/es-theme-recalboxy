@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Stratagus, a real-time strategy engine</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Origin:  Evolved from FreeCraft, a Warcraft II clone</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Games:  Wargus (Warcraft II), Battle of Survival</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Real-time strategy</text>
+        </text>
+    </view>
+</theme>

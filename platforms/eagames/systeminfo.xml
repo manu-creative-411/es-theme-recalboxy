@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Service:  EA app (formerly Origin)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Publisher:  Electronic Arts</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Content:  EA games and EA Play catalog</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Platform:  PC, played through Windows layers</text>
+        </text>
+    </view>
+</theme>

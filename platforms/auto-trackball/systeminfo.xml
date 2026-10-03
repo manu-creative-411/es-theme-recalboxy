@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Find all your trackball games in a single list.</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Games played with a trackball controller.</text>
+        </text>
+    </view>
+</theme>

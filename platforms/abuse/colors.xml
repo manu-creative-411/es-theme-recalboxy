@@ -5,5 +5,9 @@
         <systemLogo>./platforms/abuse/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/abuse/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/abuse/images/consolegame.webp</systemConsoleImage>
+        <band1>B3121C</band1>
+        <band2>2B2B2B</band2>
+        <band3>F2F2F2</band3>
+        <band4>F28C28</band4>
     </variables>
 </theme>

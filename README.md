@@ -132,8 +132,8 @@ Original Slate folders that were renamed/reused for Batocera's names:
 | `xegs` | `atarixe` |
 
 The remaining 130 matches are direct. Batocera platforms with no original Slate artwork
-are listed in `MISSING.md`: they use the default band colors and the system
-name as the logo.
+are listed in `MISSING.md`: those without a folder use the default band colors and
+the system name as the logo.
 
 ## Technical changes from the original Slate
 
@@ -287,17 +287,34 @@ had was replaced; existing files and settings are untouched):
 Raster images added from Carbon were converted from PNG to WebP (lossless for logos) to keep the theme small.
 The list of Carbon files that were deliberately left out is at the end of `MISSING.md`.
 
+## Background music
+
+The theme ships eight tracks in `core/music/` (the Recalbox main theme music,
+by machette and djpostka) and declares that folder as the system view's music
+directory (`<sound name="directory">` in `views/common.xml`). ES builds its
+playlist from the files in that folder only, in random order, so no other music
+is used while the theme is active.
+
+* Enable **Settings > Sound settings > Theme music** in Batocera. With it off,
+  ES plays your own music instead; the theme cannot force it.
+* Leave **Music per system** off: it ignores the theme's folder.
+* If **Favorite music** is on in ES, that list takes priority over the theme.
+* To change the playlist, add or remove audio files in `core/music/` (any
+  format ES supports, e.g. `.ogg`, `.mp3`). If the folder is empty, ES falls
+  back to the user's music.
+* Licensing of the tracks: see `NOTICE.md`.
+
 ## Layout of the theme
 
 ```
 es-theme-recalboxy/
 ├── theme.xml
 ├── platforms/<system.theme>/   images/ (+ us/ jp/ br/), colors.xml, systeminfo.xml, rating.xml, logo-w.xml, region-us|jp|br.xml
-├── core/  colors/  help/  lang/  layouts/  views/  tools/   (tools: update-dark-logos.sh, update-regions.sh)
+├── core/ (fonts, images, sounds, music)  colors/  help/  lang/  layouts/  views/  tools/   (tools: update-dark-logos.sh, update-regions.sh)
 ├── LICENSE  NOTICE.md  CREDITS.md  THIRD-PARTY-ASSETS.txt  MISSING.md
 ```
 
 ## License
 
 See `LICENSE` (CC BY-NC-SA) for the theme and `NOTICE.md` for the third-party
-assets that keep their own license.
+assets and music that keep their own license.

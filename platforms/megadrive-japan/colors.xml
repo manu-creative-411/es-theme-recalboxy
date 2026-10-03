@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/megadrive-japan/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>DCE3E6</band1>
+        <band2>884A52</band2>
+        <band3>D4AA6F</band3>
+        <band4>212122</band4>
     </variables>
 </theme>

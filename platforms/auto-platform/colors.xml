@@ -5,5 +5,9 @@
         <systemLogo>./platforms/auto-platform/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-platform/images/logo.webp</gamelistLogo>
         <systemControllerTint>true</systemControllerTint>
+        <band1>E8302B</band1>
+        <band2>2F8FD8</band2>
+        <band3>F2C230</band3>
+        <band4>1A1A1A</band4>
     </variables>
 </theme>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Apple</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2007 (iPhone)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Platform:  iPhone, iPad and iPod touch</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Software:  Games distributed through the App Store</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Controls:  Multi-touch screen and accelerometer</text>
+        </text>
+    </view>
+</theme>

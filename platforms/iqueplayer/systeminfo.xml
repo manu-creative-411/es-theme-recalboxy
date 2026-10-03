@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  iQue (Nintendo / Wei Yen)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2003 (China)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Platform:  Plug-and-play version of the Nintendo 64</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>CPU:  MIPS R4300i-based</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  Games stored on flash memory</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  Games were downloaded at kiosks</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  OutRun (1986)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Sega AM2</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Port:  Cannonball engine by Chris White</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Released:  2009</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Faithful reimplementation of the arcade renderer</text>
+        </text>
+    </view>
+</theme>

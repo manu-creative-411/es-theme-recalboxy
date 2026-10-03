@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/zinc/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/zinc/images/logo.webp</gamelistLogo>
+        <band1>00B7C3</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2F2F2</band3>
+        <band4>4A4A4A</band4>
     </variables>
 </theme>

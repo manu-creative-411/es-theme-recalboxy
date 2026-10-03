@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Philips</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1980</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Zilog Z80A @ 2.5 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  16 KB (up to 40 KB)</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Video:  SAA5050 teletext, 40×24, 8 colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  Built-in minicassette drive</text>
+        </text>
+    </view>
+</theme>

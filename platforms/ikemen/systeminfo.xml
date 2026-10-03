@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Ikemen GO</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Language:  Go</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  2D fighting game engine</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Compatibility:  Plays many M.U.G.E.N characters and stages</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Modern, cross-platform alternative</text>
+        </text>
+    </view>
+</theme>

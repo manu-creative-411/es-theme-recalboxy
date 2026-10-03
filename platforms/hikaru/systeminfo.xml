@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1999</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Hitachi SH-4 @ 200 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Graphics:  Custom 3D hardware, more powerful than Naomi</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Note:  Only a handful of games were released</text>
+        </text>
+    </view>
+</theme>

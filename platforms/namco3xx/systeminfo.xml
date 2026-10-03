@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Namco</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Boards:  System 357 and System 369</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Hardware:  Based on the PlayStation 3</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Tekken 6, Tekken Tag Tournament 2</text>
+        </text>
+    </view>
+</theme>

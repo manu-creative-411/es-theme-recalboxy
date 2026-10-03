@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  RetroBat</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Windows frontend based on EmulationStation</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Related:  Batocera-style configuration</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Launch RetroBat and its tools</text>
+        </text>
+    </view>
+</theme>

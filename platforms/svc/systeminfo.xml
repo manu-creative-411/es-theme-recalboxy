@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Epoch</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1984</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  NEC µPD7801G @ 4 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Resolution:  192×222 pixels, 16 colors</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Sound:  NEC µPD1771C, 3 channels plus noise</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  ROM cartridges</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Predecessor:  Cassette Vision (1981)</text>
+        </text>
+    </view>
+</theme>

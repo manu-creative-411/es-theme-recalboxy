@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/thextech/images/consolegame.png</systemConsoleImage>
+        <band1>E3342F</band1>
+        <band2>2F9E44</band2>
+        <band3>2F5D9E</band3>
+        <band4>F2C230</band4>
     </variables>
 </theme>

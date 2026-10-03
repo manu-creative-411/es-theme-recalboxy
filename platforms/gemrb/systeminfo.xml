@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  GemRB, Infinity Engine reimplementation</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Games:  Baldur's Gate, Icewind Dale, Planescape: Torment</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Developers:  BioWare / Black Isle (originals)</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Role-playing games</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Requires the original game files</text>
+        </text>
+    </view>
+</theme>

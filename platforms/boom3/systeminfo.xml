@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Doom 3 (2004)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  id Software</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Engine:  id Tech 4</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Sci-fi horror first-person shooter</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Port:  Community source port with modern features</text>
+        </text>
+    </view>
+</theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-casino/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-casino/images/logo.webp</gamelistLogo>
+        <band1>1E7A3C</band1>
+        <band2>B3121C</band2>
+        <band3>F2F2F2</band3>
+        <band4>111111</band4>
     </variables>
 </theme>

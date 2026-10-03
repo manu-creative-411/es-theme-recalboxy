@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Series:  Bomberman</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Hudson Soft</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Maze action</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Players:  Up to 4, competitive</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Classic explosive multiplayer action</text>
+        </text>
+    </view>
+</theme>

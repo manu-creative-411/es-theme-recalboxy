@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1990</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  NEC V60 @ 16 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Sound:  Zilog Z80 + Yamaha YM3438 + Ricoh PCM</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Graphics:  Multiple tilemap and sprite layers, 320×224</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Games:  Rad Mobile, Dark Edge, Golden Axe 2</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

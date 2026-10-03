@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Developer:  Seta Corporation</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Origin:  Japan</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genres:  Shoot 'em ups, puzzle, sports</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Twin Eagle, Blandia, Caliber 50</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Also:  Designed the SNES ST010 / ST011 co-processors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

@@ -5,5 +5,9 @@
         <systemLogo>./platforms/auto-pinball/images/logo.png</systemLogo>
         <gamelistLogo>./platforms/auto-pinball/images/logo.png</gamelistLogo>
         <systemControllerTint>true</systemControllerTint>
+        <band1>1E88E5</band1>
+        <band2>B3121C</band2>
+        <band3>F2F2F2</band3>
+        <band4>111111</band4>
     </variables>
 </theme>

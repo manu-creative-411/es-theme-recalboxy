@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Heroic Games Launcher</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Open-source launcher</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Stores:  Epic Games, GOG and Amazon Games</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Platform:  Linux, Windows, macOS</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Uses Wine / Proton for Windows games</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Worlds of Wonder</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1987</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Format:  Video game system that plays VHS tapes</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Gameplay:  Live-action footage with a light gun</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Games:  Sonic Fury, Blue Thunder, Hydrosub 2021...</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  VHS tapes</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Note:  It was on the market for only a few months</text>
+        </text>
+    </view>
+</theme>

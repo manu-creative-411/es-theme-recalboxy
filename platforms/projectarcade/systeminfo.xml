@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Arcade games collection</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Genre:  Classic arcade titles</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Notes:  Arcade cabinet-style selection</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  ResidualVM, 3D adventure game engine</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Games:  Grim Fandango, Myst III, Escape from Monkey Island</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Origin:  Branch of ScummVM, since merged into it</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  Point-and-click 3D adventures</text>
+        </text>
+    </view>
+</theme>

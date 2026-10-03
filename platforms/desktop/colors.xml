@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<theme>
-    <variables>
-        <!-- Assets taken from Carbon (see CREDITS.md) -->
-        <systemControllerTint>true</systemControllerTint>
-    </variables>
-</theme>

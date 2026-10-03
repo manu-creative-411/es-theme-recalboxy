@@ -3,5 +3,9 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemControllerTint>true</systemControllerTint>
+        <band1>FFE850</band1>
+        <band2>5D7A5A</band2>
+        <band3>000000</band3>
+        <band4>575240</band4>
     </variables>
 </theme>

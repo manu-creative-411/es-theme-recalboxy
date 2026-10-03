@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Flatpak</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Sandboxed application distribution</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Source:  Flathub and other repositories</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Platform:  Linux</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Install and launch desktop applications</text>
+        </text>
+    </view>
+</theme>

@@ -5,5 +5,9 @@
         <systemLogo>./platforms/heroic/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/heroic/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/heroic/images/consolegame.webp</systemConsoleImage>
+        <band1>0F4C81</band1>
+        <band2>2AB3E8</band2>
+        <band3>F2F2F2</band3>
+        <band4>111111</band4>
     </variables>
 </theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/nesh/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>CD3332</band1>
+        <band2>FFFFFF</band2>
+        <band3>666666</band3>
+        <band4>212121</band4>
     </variables>
 </theme>

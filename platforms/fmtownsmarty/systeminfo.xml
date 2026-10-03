@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Fujitsu</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1993</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Intel 80386SX @ 16 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  2 MB (+ 512 KB VRAM)</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Resolution:  Up to 640×480, 32,768 colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  Yamaha YM2612 + Ricoh RF5C68 PCM</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  CD-ROM, 3.5" floppy</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Note:  The first 32-bit game console</text>
+        </text>
+    </view>
+</theme>

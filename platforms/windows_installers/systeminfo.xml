@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Windows setup programs</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Purpose:  Install Windows games before first launch</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Platform:  Run through Wine / Proton</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Installers and setup executables</text>
+        </text>
+    </view>
+</theme>

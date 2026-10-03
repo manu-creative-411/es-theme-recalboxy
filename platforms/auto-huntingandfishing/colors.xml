@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-huntingandfishing/images/logo.png</systemLogo>
         <gamelistLogo>./platforms/auto-huntingandfishing/images/logo.png</gamelistLogo>
+        <band1>2F6F3F</band1>
+        <band2>8A5A2B</band2>
+        <band3>F2F2F2</band3>
+        <band4>1A2A1A</band4>
     </variables>
 </theme>

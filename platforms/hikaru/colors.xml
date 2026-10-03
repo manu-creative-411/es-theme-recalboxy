@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/hikaru/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>1B3F94</band1>
+        <band2>F2F2F2</band2>
+        <band3>E31E24</band3>
+        <band4>202020</band4>
     </variables>
 </theme>

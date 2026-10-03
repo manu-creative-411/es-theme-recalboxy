@@ -5,5 +5,9 @@
         <systemLogo>./platforms/pinballfx/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/pinballfx/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/pinballfx/images/consolegame.webp</systemConsoleImage>
+        <band1>1E88E5</band1>
+        <band2>0D1B3D</band2>
+        <band3>F2F2F2</band3>
+        <band4>F28C28</band4>
     </variables>
 </theme>

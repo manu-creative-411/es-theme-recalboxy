@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/xash3d_fwgs/images/consolegame.png</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>F28C28</band1>
+        <band2>1A1A1A</band2>
+        <band3>E8E8E8</band3>
+        <band4>5A5A5A</band4>
     </variables>
 </theme>

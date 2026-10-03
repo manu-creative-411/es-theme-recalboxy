@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Star Wars: Dark Forces (1995)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  LucasArts</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Engine:  Jedi Engine</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  First-person shooter</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  The first Star Wars FPS</text>
+        </text>
+    </view>
+</theme>

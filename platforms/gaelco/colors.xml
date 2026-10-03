@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/gaelco/images/consolegame.png</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>D62828</band1>
+        <band2>F2C230</band2>
+        <band3>F2F2F2</band3>
+        <band4>1E1E1E</band4>
     </variables>
 </theme>

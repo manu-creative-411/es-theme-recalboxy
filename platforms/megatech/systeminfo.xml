@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1989</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Hardware:  Mega Drive-based arcade system</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Feature:  Several games selectable from a menu</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Payment:  Credits buy playing time</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  Game cartridges inside the cabinet</text>
+        </text>
+    </view>
+</theme>

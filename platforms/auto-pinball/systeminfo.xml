@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Find all your pinball games in a single list.</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Tables, flippers and high scores.</text>
+        </text>
+    </view>
+</theme>

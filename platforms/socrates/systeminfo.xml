@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  VTech</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1988</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Type:  Educational video system</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Output:  Connects to a TV</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  Cartridges with a built-in keyboard</text>
+        </text>
+    </view>
+</theme>

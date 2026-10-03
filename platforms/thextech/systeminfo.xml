@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  TheXTech</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Reimplements:  The Super Mario Bros. X (SMBX) engine</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Language:  C++</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  2D platformer engine</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Compatible with SMBX level files</text>
+        </text>
+    </view>
+</theme>

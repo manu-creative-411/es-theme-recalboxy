@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/camplynx/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>1B1B1B</band1>
+        <band2>D12D2D</band2>
+        <band3>2D7FD1</band3>
+        <band4>F2C230</band4>
     </variables>
 </theme>

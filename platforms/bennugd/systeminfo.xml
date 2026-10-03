@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  BennuGD</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Language:  Games written in a Pascal-like language</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Origin:  Successor of Fenix</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  2D game engine</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Open-source</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  MESS (Multiple Emulator Super System)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Emulator for consoles and computers</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Origin:  Branch of MAME, merged into it in 2015</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Systems that MAME also emulates</text>
+        </text>
+    </view>
+</theme>

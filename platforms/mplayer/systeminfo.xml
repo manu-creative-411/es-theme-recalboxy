@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  MPlayer</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Media player</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Content:  Video and audio files</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Play videos from the menu</text>
+        </text>
+    </view>
+</theme>

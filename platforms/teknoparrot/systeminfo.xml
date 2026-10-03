@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  TeknoParrot</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Type:  Loader / emulator for PC-based arcade boards</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Systems:  Sega Lindbergh, Taito Type X, Sega RingEdge</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Platform:  Windows</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Requires the original game data</text>
+        </text>
+    </view>
+</theme>

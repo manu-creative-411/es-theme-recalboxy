@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Web browser and web apps</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Content:  Websites, streaming services, cloud gaming</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Platform:  Chromium-based browsers</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Open streaming and web services from the menu</text>
+        </text>
+    </view>
+</theme>

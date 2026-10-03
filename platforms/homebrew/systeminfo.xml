@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Homebrew games and apps</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Origin:  Created by the community, not licensed by manufacturers</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Content:  Games, demos, utilities</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Notes:  Free and open projects</text>
+        </text>
+    </view>
+</theme>

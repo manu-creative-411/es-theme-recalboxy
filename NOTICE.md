@@ -29,6 +29,22 @@ per-platform rating icons) come from the **recalbox-next** theme by
 * If you want to replace any of these images, delete the file and drop your
   own in its place; the theme falls back to default artwork if it is missing.
 
-## 3. Logos and trademarks
+## 3. Background music
+
+The tracks in `core/music/` (`Recalbox Main Theme 00` to `05` by **machette**,
+`06 - SMB` and `07 - TETRIS` by **djpostka**) are the Recalbox main theme music,
+also distributed in the music folder of recalbox-next.
+
+* The only licensing information that accompanies them (recalbox-next's
+  `music/licence.md`) lists the authors and **states no license**. They are
+  therefore **not** covered by the CC BY-NC-SA license of the theme and no
+  license is granted for them here.
+* They are included as separate, unmodified audio files and are credited to
+  their authors. `06 - SMB` and `07 - TETRIS` are arrangements of third-party
+  compositions, whose rights stay with their respective owners.
+* To remove them, delete the files in `core/music/`; the theme works the same
+  without them (ES then plays the user's music).
+
+## 4. Logos and trademarks
 
 Logos and trademarks belong to their respective owners (see `LICENSE`).

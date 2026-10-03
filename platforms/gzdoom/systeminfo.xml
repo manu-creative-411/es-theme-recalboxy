@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Doom (1993)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  id Software</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Port:  GZDoom, OpenGL / Vulkan source port</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  First-person shooter</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Large mod support, ZDoom-based</text>
+        </text>
+    </view>
+</theme>

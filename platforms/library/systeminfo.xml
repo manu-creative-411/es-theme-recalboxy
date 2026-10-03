@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Type:  Library of installed content</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Purpose:  Gather applications and games in one place</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Notes:  Items are launched from the list</text>
+        </text>
+    </view>
+</theme>

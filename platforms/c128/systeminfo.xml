@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Commodore</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1985</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  MOS 8502 @ 1/2 MHz and Zilog Z80</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  128 KB (expandable to 640 KB)</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Graphics:  VIC-IIe 320×200 and VDC 80-column text</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  MOS 6581 SID, 3 voices</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Modes:  C128, C64 and CP/M</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Media:  Cartridges, 1571 floppy disks, cassette</text>
+        </text>
+    </view>
+</theme>

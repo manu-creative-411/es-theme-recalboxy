@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/namco3xx/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/namco3xx/images/logo.webp</gamelistLogo>
+        <band1>C8102E</band1>
+        <band2>1A1A1A</band2>
+        <band3>F2F2F2</band3>
+        <band4>F5B700</band4>
     </variables>
 </theme>

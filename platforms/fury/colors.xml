@@ -6,5 +6,9 @@
         <gamelistLogo>./platforms/fury/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/fury/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>F2A900</band1>
+        <band2>1A1A1A</band2>
+        <band3>E8E8E8</band3>
+        <band4>B3121C</band4>
     </variables>
 </theme>

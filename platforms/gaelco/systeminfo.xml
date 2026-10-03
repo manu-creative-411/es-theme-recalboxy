@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Developer:  Gaelco</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Origin:  Barcelona, Spain (founded 1985)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genres:  Sports, racing, platformers</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Thunder Hoop, Big Karnak, World Rally</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

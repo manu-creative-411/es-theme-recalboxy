@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Designer:  David Murray (The 8-Bit Guy)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2020 (modern 8-bit computer)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  WDC 65C02 @ 8 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  512 KB banked + 40 KB base RAM</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Graphics:  VERA FPGA, 640×480, 256 colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  VERA PSG and Yamaha YM2151</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  SD card</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Note:  Open design inspired by the Commodore 64</text>
+        </text>
+    </view>
+</theme>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Service:  Amazon Prime Gaming / Luna</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Operator:  Amazon</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Content:  Free games for Prime members</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Platform:  PC and cloud streaming</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Launched through its store client</text>
+        </text>
+    </view>
+</theme>

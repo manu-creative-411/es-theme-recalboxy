@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2002</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Hardware:  Based on the original Xbox</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>CPU:  Intel Celeron @ 733 MHz</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>GPU:  NVIDIA NV2A</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>RAM:  64 MB</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Games:  OutRun 2, Virtua Cop 3, House of the Dead 3</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Media:  GD-ROM / DVD, hard disk</text>
+        </text>
+    </view>
+</theme>

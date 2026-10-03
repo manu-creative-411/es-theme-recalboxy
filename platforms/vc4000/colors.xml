@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/vc4000/images/consolegame.webp</systemConsoleImage>
         <systemControllerImage>./platforms/vc4000/images/controller.webp</systemControllerImage>
+        <band1>E8830C</band1>
+        <band2>2A2A2A</band2>
+        <band3>EDEDED</band3>
+        <band4>5E5E5E</band4>
     </variables>
 </theme>

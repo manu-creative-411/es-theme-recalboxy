@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Nintendo</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1977 (Color TV-Game 6)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Format:  Dedicated consoles, no cartridges</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Light Tennis, Block Breaker, Racing 112...</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Note:  Nintendo's first home video game consoles</text>
+        </text>
+    </view>
+</theme>

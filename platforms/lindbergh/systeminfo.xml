@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sega</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2005</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Intel Pentium 4 @ 3 GHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>GPU:  NVIDIA GeForce 6</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>RAM:  1 GB</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>OS:  Linux-based with copy protection</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Games:  House of the Dead 4, Virtua Fighter 5, OutRun 2 SP</text>
+        </text>
+    </view>
+</theme>

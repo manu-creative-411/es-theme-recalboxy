@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  VTech</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1983</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Zilog Z80A @ 3.58 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  18 KB (expandable to 64 KB)</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Video:  Motorola MC6847, 256×192, 9 colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  1-bit speaker</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  Cassette tape, floppy disks</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Note:  Also sold as the VZ300</text>
+        </text>
+    </view>
+</theme>

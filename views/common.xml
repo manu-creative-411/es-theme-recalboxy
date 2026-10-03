@@ -95,6 +95,10 @@
         <sound name="menuOpen">
           <path>./core/sounds/select.wav</path>
         </sound>
+        <!-- Background music: the playlist is exactly the files in core/music -->
+        <sound name="directory">
+          <path>./core/music</path>
+        </sound>
     </view>
     <view name="basic, detailed, video, grid">
         <image name="background">

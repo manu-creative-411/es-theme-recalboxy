@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-quiz/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-quiz/images/logo.webp</gamelistLogo>
+        <band1>F2A900</band1>
+        <band2>2F8FD8</band2>
+        <band3>F2F2F2</band3>
+        <band4>1E3A5A</band4>
     </variables>
 </theme>

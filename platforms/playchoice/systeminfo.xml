@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Nintendo</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1986</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Hardware:  NES hardware plus a Zilog Z80 for the menu</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Feature:  Ten games selectable, credits buy time</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Games:  Super Mario Bros., Duck Hunt, Metroid...</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Media:  Plug-in game boards</text>
+        </text>
+    </view>
+</theme>

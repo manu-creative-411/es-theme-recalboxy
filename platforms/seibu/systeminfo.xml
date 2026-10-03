@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Developer:  Seibu Kaihatsu</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Origin:  Japan (founded 1982)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genres:  Shoot 'em ups and fighters</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Games:  Raiden, Raiden II, Seibu Cup Soccer</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Media:  ROM boards</text>
+        </text>
+    </view>
+</theme>

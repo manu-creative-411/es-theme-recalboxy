@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/dragon32/images/consolegame.webp</systemConsoleImage>
         <systemControllerTint>true</systemControllerTint>
+        <band1>2E7D32</band1>
+        <band2>1A1A1A</band2>
+        <band3>D9D9D9</band3>
+        <band4>4E4E4E</band4>
     </variables>
 </theme>

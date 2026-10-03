@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Fallout (1997)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Interplay Productions</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Post-apocalyptic role-playing game</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  Fallout Community Edition</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Requires the original game files</text>
+        </text>
+    </view>
+</theme>

@@ -4,5 +4,9 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/aleck64/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/aleck64/images/logo.webp</gamelistLogo>
+        <band1>2D5FA8</band1>
+        <band2>D52B1E</band2>
+        <band3>EDEDED</band3>
+        <band4>1E1E1E</band4>
     </variables>
 </theme>

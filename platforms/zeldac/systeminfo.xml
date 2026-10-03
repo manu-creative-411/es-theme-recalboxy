@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Project:  Zelda Classic</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Genre:  Action-adventure engine</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Type:  Fan-made engine and quest player</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Language:  C++</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Play and create quests in the style of classic Zelda</text>
+        </text>
+    </view>
+</theme>

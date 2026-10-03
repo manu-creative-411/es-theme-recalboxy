@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Sony</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  2016</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  AMD Jaguar, 8 cores @ 2.1 GHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>GPU:  AMD Radeon, 4.2 TFLOPS @ 911 MHz</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>RAM:  8 GB GDDR5 + 1 GB DDR3</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Resolution:  Up to 4K (checkerboard) with HDR</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  Blu-ray, 1 TB hard drive</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Note:  Enhanced revision of the PlayStation 4</text>
+        </text>
+    </view>
+</theme>

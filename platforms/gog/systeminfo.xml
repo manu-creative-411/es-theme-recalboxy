@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Service:  GOG.com</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Operator:  GOG (CD Projekt)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Founded:  2008 as Good Old Games</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Content:  DRM-free PC games, old and new</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Games are run through compatibility layers</text>
+        </text>
+    </view>
+</theme>

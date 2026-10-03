@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original games:  Dark Forces and Outlaws</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  LucasArts (originals)</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Port:  The Force Engine, open-source reimplementation</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Genre:  First-person shooters</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Requires the original game data</text>
+        </text>
+    </view>
+</theme>

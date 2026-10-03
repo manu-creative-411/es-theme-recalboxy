@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Manufacturer:  Tandy (RadioShack)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Released:  1984</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>CPU:  Intel 8088 @ 4.77 MHz</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>RAM:  128 KB (expandable)</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Graphics:  Tandy Graphics, 320×200, 16 colors</text>
+        </text>
+        <text name="info6" extra="true">
+          <text>Sound:  Texas Instruments SN76489, 3 voices</text>
+        </text>
+        <text name="info7" extra="true">
+          <text>Media:  5.25" floppy disks, cartridges</text>
+        </text>
+        <text name="info8" extra="true">
+          <text>Note:  PC-compatible with better graphics and sound</text>
+        </text>
+    </view>
+</theme>

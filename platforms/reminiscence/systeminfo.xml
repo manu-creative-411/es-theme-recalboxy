@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <view name="system">
+        <text name="info1" extra="true">
+          <text>Original game:  Flashback (1992)</text>
+        </text>
+        <text name="info2" extra="true">
+          <text>Developer:  Delphine Software International</text>
+        </text>
+        <text name="info3" extra="true">
+          <text>Genre:  Cinematic platformer</text>
+        </text>
+        <text name="info4" extra="true">
+          <text>Port:  REminiscence</text>
+        </text>
+        <text name="info5" extra="true">
+          <text>Notes:  Plays the original game files</text>
+        </text>
+    </view>
+</theme>
