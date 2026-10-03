@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/iortcw/images/consolegame.webp</systemConsoleImage>
+    </variables>
+</theme>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/plugnplay/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/plugnplay/images/logo.webp</gamelistLogo>
+        <systemConsoleImage>./platforms/plugnplay/images/consolegame.webp</systemConsoleImage>
+        <systemControllerImage>./platforms/plugnplay/images/controller.webp</systemControllerImage>
+    </variables>
+</theme>

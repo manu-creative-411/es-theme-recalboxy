@@ -5,5 +5,8 @@
         <band2>887EC9</band2>
         <band3>444BBF</band3>
         <band4>5D69F1</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/triforce/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

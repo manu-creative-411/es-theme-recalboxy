@@ -6,6 +6,7 @@
         <band3>C9CCFF</band3>
         <band4>1A1A2E</band4>
         <systemLogo>./platforms/pcgames/images/logo.png</systemLogo>
+        <gamelistLogo>./platforms/pcgames/images/logo.png</gamelistLogo>
         <systemControllerImage>./platforms/pcgames/images/controller.png</systemControllerImage>
     </variables>
 </theme>

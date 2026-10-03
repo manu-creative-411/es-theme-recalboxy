@@ -5,5 +5,7 @@
         <band2>6CAAD8</band2>
         <band3>D0DFF2</band3>
         <band4>2C2C2C</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemControllerImage>./platforms/psvita/images/controller.webp</systemControllerImage>
     </variables>
 </theme>

@@ -5,5 +5,8 @@
         <band2>91C300</band2>
         <band3>00B4F1</band3>
         <band4>FFC300</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/windows/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

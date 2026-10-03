@@ -5,5 +5,8 @@
         <band2>ADC7EF</band2>
         <band3>8F8F91</band3>
         <band4>B9A9CE</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/xegs/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

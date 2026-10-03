@@ -6,5 +6,6 @@
         <band3>22D3C5</band3>
         <band4>2B2E3A</band4>
         <systemLogo>./platforms/emuconfig/images/logo.png</systemLogo>
+        <gamelistLogo>./platforms/emuconfig/images/logo.png</gamelistLogo>
     </variables>
 </theme>

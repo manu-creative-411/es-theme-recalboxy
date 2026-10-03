@@ -1,131 +1,71 @@
 # Platforms without artwork
 
-> With "Use Vector Graphics for Logos" set to "No", 70 of the platforms below get a logo
-> (`images/logo-iconic.webp`, from the Iconic theme) instead of the system name as text.
-> The other options (colors, console images...) are still the defaults.
+> Platforms with a folder in `platforms/` now have at least a logo (`images/logo.*`), taken from
+> the Carbon theme, and many also a console picture and a controller. The systems below are Batocera
+> systems (`es_systems.yml`) that have **no folder at all**, because neither the original Slate nor
+> Carbon has artwork for them: they use the default band colors and the system name as text.
+> If you add `images/logo.svg` (and optionally `consolegame.svg`, `controller.svg`, `colors.xml`,
+> `systeminfo.xml`) to a folder with that name inside `platforms/`, it will be used.
 
-Batocera systems (`es_systems.yml`) for which the original Slate has no artwork.
-They are shown with the default band colors and the system name as text. If
-you add `images/logo.svg` (and optionally `consolegame.svg`, `controller.svg`,
-`colors.xml`, `systeminfo.xml`) to a folder with that name inside `platforms/`, it will be used.
-
-- `abuse` (Abuse)
-- `advision` (Adventure Vision)
-- `apfm1000` (M-1000)
-- `atom` (Atom)
 - `beena` (Advanced Pico Beena)
-- `bennugd` (Bennu Game Development)
-- `bstone` (Blake Stone)
-- `c128` (Commodore 128)
-- `camplynx` (Camputers Lynx)
-- `cannonball` (Cannonball)
-- `cassettevision` (Cassette Vision)
 - `catacomb` (CatacombGL)
-- `cave3rd` (Cave CV1000)
-- `cavestory` (Cave Story)
-- `cdogs` (C-Dogs SDL)
-- `cgenie` (Colour Genie)
-- `cgenius` (Commander Genius)
-- `chihiro` (Sega Chihiro)
-- `commanderx16` (Commander X16)
-- `corsixth` (CorsixTH)
 - `ctvboy` (Compact Vision TV Boy)
-- `devilutionx` (Diablo)
 - `doom3` (Doom 3)
-- `dxx-rebirth` (DXX Rebirth)
-- `ecwolf` (ECWolf)
-- `eduke32` (EDuke32)
-- `enterprise` (Enterprise)
-- `etlegacy` (Wolfenstein - Enemy Territory)
-- `fallout1-ce` (Fallout Community Edition)
-- `fallout2-ce` (Fallout 2 Community Edition)
-- `flatpak` (Applications)
-- `fury` (Ion Fury)
-- `gaelco` (Gaelco)
-- `gamepock` (Game Pocket Computer)
 - `gametank` (GameTank)
-- `gong` (Pong)
-- `gp32` (GP32)
 - `halflife` (Half-Life 1)
-- `hcl` (Hydra Castle Labyrinth)
-- `hikaru` (Hikaru)
-- `hurrican` (Hurrican)
-- `ikemen` (IKEMEN)
 - `jazz2` (Jazz Jackrabbit 2)
 - `jkdf2` (Jedi Knight - Dark Forces 2)
 - `jknight` (Star Wars - Jedi Academy)
-- `laser310` (Laser 310)
-- `library` (Library)
-- `lindbergh` (Sega Lindbergh)
-- `loopy` (Casio Loopy)
 - `mc10` (MC-10)
 - `mohaa` (Medal Of Honor - Allied Assault)
-- `mrboom` (MrBoom)
 - `mz2000` (Sharp MZ-2000)
 - `mz2500` (Sharp MZ-2500)
 - `mz700` (Sharp MZ-700)
 - `mz800` (Sharp MZ-800)
 - `mz80k` (Sharp MZ-80K)
-- `namco22` (Namco System 22)
-- `namco2x6` (Namco System 246/256)
-- `namco3xx` (Namco 3xx)
-- `odcommander` (OD-Commander)
-- `opengoal` (OpenGOAL)
-- `openjazz` (Jazz Jackrabbit)
-- `pc60` (PC-6000)
 - `pc80` (PC-8001)
 - `pcw` (Amstrad PCW)
-- `pdp1` (PDP-1)
-- `pet` (Commodore PET)
-- `prboom` (PrBoom)
 - `pv2000` (PV-2000)
-- `pygame` (Pygame)
-- `pyxel` (pyxel)
 - `quake2` (Quake II)
-- `quake3` (Quake III)
-- `raze` (Raze)
-- `recordings` (Recordings)
-- `reminiscence` (REminiscence)
 - `rott` (Rise of the Triad)
 - `rtcw` (Return To Castle Wolfenstein)
 - `rx78` (RX-78)
-- `sc-3000` (SC-3000)
 - `screenshots` (Screenshots)
-- `sdlpop` (SdlPop)
 - `segaai` (Sega AI Computer)
-- `singe` (Singe)
-- `socrates` (Socrates)
-- `sonic-mania` (Sonic Mania)
-- `sonic3-air` (Sonic 3 A.I.R.)
-- `sonicretro` (Sonic Retro Engine)
-- `superbroswar` (Super Mario War)
 - `sv8000` (Super Vision 8000)
 - `systemsp` (Sega System SP)
-- `theforceengine` (The Force Engine)
-- `thextech` (TheXTech)
 - `traider` (Tomb Raider I, II & III)
-- `tutor` (Tutor)
 - `tvc` (Videoton TVC)
-- `tvgames` (Plug and Play TV Games)
-- `tyrian` (Tyrian)
 - `uqm` (Ur-Quan Masters)
 - `uzdoom` (UZDoom)
-- `vc4000` (VC 4000)
-- `vemulator` (Dreamcast VMU)
-- `vgmplay` (Video Game Music Player)
-- `vis` (Tandy Video Information System)
-- `windows_installers` (Install a new Windows game)
-- `xrick` (xrick)
-- `zeldac` (Zelda Classic)
 
-# Platforms with partial artwork (no logo)
+# Platforms with partial artwork
 
-`bk`, `dice`, `moonlight`, `pico` and `dragon64` got console/controller images,
-band colors and system info (and rating icons) from the Recalbox theme
-(recalbox-next v9). They still have no `images/logo.svg`, so the system name is
-shown as text.
+Platforms added or completed from Carbon (see `CREDITS.md`) only got what Carbon has: a logo
+(`logo.svg`, `logo-w.svg`, or a raster `logo.webp` where Carbon has no vector one), a console picture
+(raster, `consolegame.webp`/`.png`) and a controller (`controller.svg`: white line-art, tinted with the
+palette's text color through `systemControllerTint`). They keep the default band colors and have no
+`systeminfo.xml`, so the technical-data lines of the system list stay empty for them.
+
+`bk` and `dragon64` got console/controller images, band colors and system info from the Recalbox
+theme (recalbox-next v9), but still have no `images/logo.svg`: the system name is shown as text.
 
 # Original Slate folders kept without an equivalent system
 
 They may be useful for automatic arcade collections, user-added systems or
 future Batocera versions: `ags`, `android`, `androidapps`, `androidgames`, `arcade`, `auto-allgames`, `auto-favorites`, `auto-lastplayed`, `chailove`, `cps`, `cps1`, `cps2`, `cps3`, `custom-collections`, `doom`, `dos`, `fpinball`, `kodi`, `naomigd`, `stv`, `switch`, `type-x`, `zxnext`.
+
+# Platforms still without a logo (system name as text)
+
+`bk`, `dragon64`.
+
+# Carbon files that were not added
+
+* `consoles/aquarius.jpg`: a full 1280x720 photo with background, not a cut-out console.
+* Heavy files (over 1 MB; slow to rasterize on small devices): `consoles/linux.png`,
+  `consoles/pocketstation.png`, `consoles/projectarcade.png`, `consoles/segastv.png` and
+  `logos/br/sega32x.svg` / `sega32x-w.svg` (1.5 MB each; a traced bitmap).
+* `controllers/jp/nes.svg`: white line-art pad that would clash with the full-color base NES pad.
+* Series and manufacturer collections (`mario`, `zelda`, `capcom`, `konami`...), the `custom-collections-*`
+  logos and the translated logos (`<name>-es.svg`, `-fr`...): they are for custom collections / per-language
+  logos, not for systems.

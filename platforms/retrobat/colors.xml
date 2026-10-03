@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/retrobat/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/retrobat/images/logo.webp</gamelistLogo>
+        <systemConsoleImage>./platforms/retrobat/images/consolegame.png</systemConsoleImage>
+        <systemControllerImage>./platforms/retrobat/images/controller.webp</systemControllerImage>
+    </variables>
+</theme>

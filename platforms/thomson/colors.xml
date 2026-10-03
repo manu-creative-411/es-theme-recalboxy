@@ -5,5 +5,8 @@
         <band2>F0C73B</band2>
         <band3>4F8E5C</band3>
         <band4>2C2D2C</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/thomson/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/tvgames/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/tvgames/images/logo.webp</gamelistLogo>
+        <systemConsoleImage>./platforms/tvgames/images/consolegame.png</systemConsoleImage>
+        <systemControllerImage>./platforms/tvgames/images/controller.webp</systemControllerImage>
+    </variables>
+</theme>

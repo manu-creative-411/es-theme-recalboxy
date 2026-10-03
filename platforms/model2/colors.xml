@@ -5,5 +5,8 @@
         <band2>F7ED18</band2>
         <band3>F4133D</band3>
         <band4>199A40</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/model2/images/consolegame.png</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

@@ -5,5 +5,8 @@
         <band2>4FBBB2</band2>
         <band3>DCD9D1</band3>
         <band4>D13931</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/pv1000/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

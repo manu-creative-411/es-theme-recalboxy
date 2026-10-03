@@ -46,8 +46,10 @@
         <subsetRatingIcons>Iconos de valoración</subsetRatingIcons>
         <langRatingSystem>Por plataforma</langRatingSystem>
         <langRatingStandard>Estándar</langRatingStandard>
-        <subsetSvgLogos>Usar gráficos vectoriales para logotipos</subsetSvgLogos>
-        <langYes>Sí</langYes>
-        <langNo>No</langNo>
+        <subsetRegion>Región</subsetRegion>
+        <langRegionEU>Europa / Mundo</langRegionEU>
+        <langRegionUS>EE. UU.</langRegionUS>
+        <langRegionJP>Japón</langRegionJP>
+        <langRegionBR>Brasil</langRegionBR>
     </variables>
 </theme>

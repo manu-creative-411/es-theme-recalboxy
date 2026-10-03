@@ -5,5 +5,8 @@
         <band2>2FBB37</band2>
         <band3>C70A11</band3>
         <band4>000000</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/arcadia/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

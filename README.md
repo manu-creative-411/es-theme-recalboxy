@@ -22,6 +22,7 @@ options under *Theme Configuration*.
 | Help icons (`helpicons`) | Default (Batocera) / Xbox / PlayStation / SNES / Generic 4, 6 and 8 buttons / SNES alt / Xbox One / Arcade | (new) icons for the bottom help bar; assets in `help/icons/` |
 | System list (`systemview`) | Horizontal (default) / Vertical (left) | Recalbox's *vertical left* system view (`views/system-vertical.xml`); landscape 16:9 and 4:3 screens only |
 | Rating icons (`ratingicons`) | Per platform (default) / Standard | each console's own icons instead of stars (`platforms/<platform>/rating.xml` + `images/rating_*.svg`) |
+| Region (`region`) | Europe / World (default) / USA / Japan / Brazil | (new) regional artwork where a platform has it (logo, console picture): Genesis, Super Famicom, PC Engine / TurboGrafx-16, Sega CD, Brazilian collection logos... assets in `platforms/<system>/images/<region>/` |
 
 The Xbox, PlayStation and SNES sets map the physical position of Batocera's
 gamepad buttons (A = east, B = south, X = north, Y = west): e.g. on
@@ -217,13 +218,82 @@ the game counter has no box and uses the info text color.
   veil, edit the PNG (4×4 px; the alpha sets how much the background shows
   through).
 
+## System logos and dark palettes
+
+Logos come from the **Carbon** theme (vector only, `platforms/<system>/images/logo.svg`).
+Carbon also ships a white-ish variant for dark backgrounds, `logo-w.svg`, for most systems.
+
+On the dark palettes the theme uses that variant where the platform has one, and falls
+back to `logo.svg` where it does not:
+
+| Palette | System list (logo over the carousel band) | Game list (logo over the background) |
+|---|---|---|
+| Slate, Grey, GameCube, White and black | `logo-w.svg` | `logo-w.svg` |
+| Darker | `logo.svg` (light band) | `logo-w.svg` |
+| everything else | `logo.svg` | `logo.svg` |
+
+The choice is two variables in each palette (`colors/<palette>.xml`):
+`logoVariantSystem` and `logoVariantGamelist`, with value `normal` or `white`
+(`normal` is the default, set in `theme.xml`). To make another palette use the white
+variants, add those two lines to its file; to stop using them, set them to `normal`.
+
+**Adding a white logo for a platform:** put it at
+`platforms/<system>/images/logo-w.svg` and run `sh tools/update-dark-logos.sh`. The script
+(re)creates `platforms/<system>/logo-w.xml`, the small file the theme includes to point
+at it (only platforms that have it get one, which is how the fallback to `logo.svg`
+works: EmulationStation shows the system name as text if a logo file is missing, it
+does not fall back by itself). A missing `logo-w.xml` produces a harmless warning in
+`es_launch_stderr.log`.
+
+The old option *Use Vector Graphics for Logos* and the Iconic `.webp` logos were removed. Where Carbon only has a raster
+logo (e.g. `abuse`, `bstone`, `fury`), that one is used (`images/logo.webp`) rather than showing plain text.
+
+## Region
+
+*Theme Configuration → Region* picks the regional artwork. Europe / World is the default and uses the
+normal artwork (nothing changes). USA, Japan and Brazil swap, **only for the platforms that have it**,
+the logo (with its white variant for dark palettes), the console picture and the controller; whatever
+a region does not provide falls back to the normal artwork, so it is safe to choose any region.
+
+Examples: USA shows *Genesis*, *TurboGrafx-16*, *Sega CD*, *Super Nintendo*; Japan shows the Japanese
+logos and consoles (*Famicom*, *Super Famicom*, *PC Engine*, *Mega Drive*, *Mega-CD*), and Brazil the Brazilian
+versions of the Mega Drive / Master System logos and of the automatic collections.
+
+How it works: each platform with regional artwork has `images/us/`, `images/jp/` and/or `images/br/`
+(files named like the normal ones: `logo.svg`, `logo-w.svg`, `consolegame.*`, `controller.*`) and a small
+`region-<r>.xml` that `theme.xml` includes only when that region is selected. Those XML files are
+generated: after adding or removing regional images run `sh tools/update-regions.sh`
+(same idea as `tools/update-dark-logos.sh`). Currently 48 region files exist.
+
+## Assets taken from Carbon
+
+On top of the logos, the theme now also uses Carbon's artwork to fill gaps (nothing that Recalboxy already
+had was replaced; existing files and settings are untouched):
+
+* **171 new platform folders** with logo (and console picture / controller where Carbon has them), mostly
+  newer Batocera systems and collections: the automatic collections (`auto-at2players`, `auto-at4players`, `auto-neverplayed`,
+  `auto-lightgun`, `auto-verticalarcade`, `auto-wheel`, `auto-retroachievements` and the genre ones), store launchers (`gog`, `epic`,
+  `amazon`, `eagames`, `heroic`), hacks (`gbah`, `snesh`, `nesh`...), arcade boards (`model1`, `segasystem32`, `hikaru`...),
+  ports (`gzdoom`, `soh`, `openlara`...), computers (`amiga4000`, `c16`, `dragon32`, `msx`, `tandy1k`...) and more.
+* **Logos** for platforms that lacked one, and **white logo variants** (`logo-w.svg`) where Carbon has them.
+* **Console pictures** (`consolegame`) for 145 platforms and **controllers** for 164.
+  Carbon only has raster console pictures, so they are `.webp` (or `.png`) next to the vector ones of the other platforms;
+  where a raster file is used, the platform's `colors.xml` points to it (`systemConsoleImage`, `systemControllerImage`,
+  `systemLogo`/`gamelistLogo`), the same way the artwork added for `emuconfig` or `pcgames` does.
+* Carbon's controllers are **white line-art** drawings. So they are readable on every palette, platforms that use one set
+  `systemControllerTint` to `true` and the theme tints the controller with the palette's info text color
+  (`views/common.xml`). Full-color controllers from Recalboxy/Recalbox are never tinted.
+
+Raster images added from Carbon were converted from PNG to WebP (lossless for logos) to keep the theme small.
+The list of Carbon files that were deliberately left out is at the end of `MISSING.md`.
+
 ## Layout of the theme
 
 ```
 es-theme-recalboxy/
 ├── theme.xml
-├── platforms/<system.theme>/   images/, colors.xml, systeminfo.xml, rating.xml
-├── core/  colors/  help/  lang/  layouts/  views/
+├── platforms/<system.theme>/   images/ (+ us/ jp/ br/), colors.xml, systeminfo.xml, rating.xml, logo-w.xml, region-us|jp|br.xml
+├── core/  colors/  help/  lang/  layouts/  views/  tools/   (tools: update-dark-logos.sh, update-regions.sh)
 ├── LICENSE  NOTICE.md  CREDITS.md  THIRD-PARTY-ASSETS.txt  MISSING.md
 ```
 

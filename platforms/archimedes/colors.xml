@@ -5,5 +5,8 @@
         <band2>F2CE2E</band2>
         <band3>FFFFFF</band3>
         <band4>019ADE</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/archimedes/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

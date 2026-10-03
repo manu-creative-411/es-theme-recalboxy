@@ -5,5 +5,7 @@
         <band2>4E7896</band2>
         <band3>EE3537</band3>
         <band4>1F4394</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/j2me/images/consolegame.webp</systemConsoleImage>
     </variables>
 </theme>

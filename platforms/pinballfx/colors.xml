@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/pinballfx/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/pinballfx/images/logo.webp</gamelistLogo>
+        <systemConsoleImage>./platforms/pinballfx/images/consolegame.webp</systemConsoleImage>
+    </variables>
+</theme>

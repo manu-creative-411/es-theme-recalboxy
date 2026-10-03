@@ -5,5 +5,7 @@
         <band2>EBD335</band2>
         <band3>5D3615</band3>
         <band4>BF9438</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/atari8bit/images/consolegame.webp</systemConsoleImage>
     </variables>
 </theme>

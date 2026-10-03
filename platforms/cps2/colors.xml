@@ -5,5 +5,8 @@
         <band2>FAFAFA</band2>
         <band3>FFCB04</band3>
         <band4>111111</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/cps2/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/vc4000/images/consolegame.webp</systemConsoleImage>
+        <systemControllerImage>./platforms/vc4000/images/controller.webp</systemControllerImage>
+    </variables>
+</theme>

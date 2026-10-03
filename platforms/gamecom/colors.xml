@@ -5,5 +5,8 @@
         <band2>293039</band2>
         <band3>AE2B2B</band3>
         <band4>186DA4</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/gamecom/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

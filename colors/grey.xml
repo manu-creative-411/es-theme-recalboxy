@@ -35,5 +35,8 @@
         <!-- Clock, controller/battery indicators and help bar (drawn over the menu veil) -->
         <overlayColor>C1C1C1</overlayColor>
         <menuSectionBackgroundColor>202020D8</menuSectionBackgroundColor>
+        <!-- Logo variant: "white" uses logo-w.svg where the platform has it -->
+        <logoVariantSystem>white</logoVariantSystem>
+        <logoVariantGamelist>white</logoVariantGamelist>
     </variables>
 </theme>

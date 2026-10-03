@@ -5,5 +5,8 @@
         <band2>0A7CAF</band2>
         <band3>EEEEEE</band3>
         <band4>2A2E33</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/steam/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

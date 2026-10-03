@@ -35,5 +35,8 @@
         <!-- Clock, controller/battery indicators and help bar (drawn over the menu veil) -->
         <overlayColor>FFFFFF</overlayColor>
         <menuSectionBackgroundColor>DEE0E2CC</menuSectionBackgroundColor>
+        <!-- Logo variant: "white" uses logo-w.svg where the platform has it -->
+        <logoVariantSystem>white</logoVariantSystem>
+        <logoVariantGamelist>white</logoVariantGamelist>
     </variables>
 </theme>

@@ -5,5 +5,8 @@
         <band2>4A0000</band2>
         <band3>B11313</band3>
         <band4>710000</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/flash/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

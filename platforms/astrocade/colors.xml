@@ -5,5 +5,8 @@
         <band2>FA0105</band2>
         <band3>F8F6EA</band3>
         <band4>C47401</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/astrocade/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

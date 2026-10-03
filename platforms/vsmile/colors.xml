@@ -5,5 +5,8 @@
         <band2>8A6AA2</band2>
         <band3>CBCFD0</band3>
         <band4>F0973A</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/vsmile/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

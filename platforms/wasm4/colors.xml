@@ -5,5 +5,7 @@
         <band2>D3E3B7</band2>
         <band3>4B5E2C</band3>
         <band4>8FC038</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

@@ -5,5 +5,8 @@
         <band2>3FEC69</band2>
         <band3>FFF200</band3>
         <band4>E60008</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/supracan/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

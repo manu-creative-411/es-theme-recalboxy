@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/apfm1000/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/apfm1000/images/logo.webp</gamelistLogo>
+        <systemConsoleImage>./platforms/apfm1000/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
+    </variables>
+</theme>

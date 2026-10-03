@@ -18,6 +18,15 @@
         <systemConsoleImage>./platforms/${system.theme}/images/consolegame.svg</systemConsoleImage>
         <systemControllerImage>./platforms/${system.theme}/images/controller.svg</systemControllerImage>
         <systemLogo>./platforms/${system.theme}/images/logo.svg</systemLogo>
+        <gamelistLogo>./platforms/${system.theme}/images/logo.svg</gamelistLogo>
+        <!-- Logo variant per view: "normal" (logo.svg) or "white" (logo-w.svg, if the platform has one).
+             Dark palettes override these in colors/*.xml: the system view logo sits on the carousel
+             band, the gamelist header logo sits on the palette background. -->
+        <logoVariantSystem>normal</logoVariantSystem>
+        <logoVariantGamelist>normal</logoVariantGamelist>
+        <!-- "true" (set in platforms/<system>/colors.xml) for the white line-art controllers taken from
+             Carbon: they are tinted with the palette's info text color so they show on every palette -->
+        <systemControllerTint>false</systemControllerTint>
         <!-- Default band colors for systems without their own colors.xml -->
         <band1>F6DD08</band1>
         <band2>800000</band2>
@@ -80,13 +89,17 @@
         <include name="hide" displayName="${langHide}"/>
     </subset>
 
+    <!-- Region: picks the regional artwork (platforms/<system>/images/<region>/) where a platform has it -->
+    <subset name="region" displayName="${subsetRegion}">
+        <include name="eu" displayName="${langRegionEU}"/>
+        <include name="us" displayName="${langRegionUS}"/>
+        <include name="jp" displayName="${langRegionJP}"/>
+        <include name="br" displayName="${langRegionBR}"/>
+    </subset>
+
     <subset name="systemview" displayName="${subsetSystemView}">
         <include name="horizontal" displayName="${langSystemHorizontal}"/>
         <include name="vertical" displayName="${langSystemVertical}"/>
-    </subset>
-    <subset name="use-svg-logos" displayName="${subsetSvgLogos}">
-        <include name="yes" displayName="${langYes}"/>
-        <include name="no" displayName="${langNo}"/>
     </subset>
     <subset name="ratingicons" displayName="${subsetRatingIcons}">
         <include name="system" displayName="${langRatingSystem}"/>
@@ -95,8 +108,13 @@
 
     <!-- Per-system data. Folder = Batocera theme name (system.theme) -->
     <include>./platforms/${system.theme}/colors.xml</include>
-    <!-- "Use Vector Graphics for Logos: No" loads the Iconic raster logos (white border, readable on dark palettes) -->
-    <include ifSubset="use-svg-logos:no">./platforms/${system.theme}/iconic.xml</include>
+    <!-- White logo variant (platforms/<system>/logo-w.xml exists only if images/logo-w.svg does; see README) -->
+    <include>./platforms/${system.theme}/logo-w.xml</include>
+    <!-- Regional artwork (platforms/<system>/region-<r>.xml exists only if images/<r>/ does; see tools/update-regions.sh).
+         Declared after logo-w.xml so the region wins over the default and white-logo variants. -->
+    <include ifSubset="region:us">./platforms/${system.theme}/region-us.xml</include>
+    <include ifSubset="region:jp">./platforms/${system.theme}/region-jp.xml</include>
+    <include ifSubset="region:br">./platforms/${system.theme}/region-br.xml</include>
     <include ifSubset="systeminfo:show">./platforms/${system.theme}/systeminfo.xml</include>
 
     <!-- Styling, then font size variables and per-aspect geometry -->

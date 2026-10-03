@@ -23,4 +23,9 @@ Console/controller images, rating icons, band colors and system info added to pl
 
 Platform folders now live under `platforms/`. Third-party assets from recalbox-next are kept as unmodified, separately licensed copies; see `NOTICE.md` and `THIRD-PARTY-ASSETS.txt`.
 
-Iconic logos (`platforms/*/images/logo-iconic.webp`, selectable with the "Use Vector Graphics for Logos" option set to "No"): taken from the [Iconic (ES version)](https://github.com/Delgan/iconic-es) theme by Delgan, based on Iconic (ES-DE) by Siddy212 (CC0 1.0).
+System logos (`platforms/*/images/logo.svg` and the white variants `logo-w.svg`): taken from the [Carbon](https://github.com/RetroPie/es-theme-carbon) theme by Rookervik, through the Batocera fork by fabricecaruso (`es-theme-carbon`). They replace the Iconic raster logos used in earlier versions of this theme. The logos themselves are trademarks of their respective owners.
+
+Carbon artwork added in a later pass (platform folders, logos and white logos, console pictures `consolegame.*`,
+controllers `controller.svg` and the regional artwork in `platforms/*/images/us|jp|br/`): taken from the same Carbon theme
+(Rookervik / fabricecaruso fork, CC BY-NC-SA, same license as this theme). Raster images were converted from PNG to WebP.
+Region option, `tools/update-regions.sh` and the controller tint: written for this theme.

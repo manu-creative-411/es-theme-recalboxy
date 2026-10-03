@@ -5,5 +5,7 @@
         <band2>7D97A1</band2>
         <band3>9F6626</band3>
         <band4>77462B</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/fpinball/images/consolegame.png</systemConsoleImage>
     </variables>
 </theme>

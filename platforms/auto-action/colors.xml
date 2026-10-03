@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/auto-action/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/auto-action/images/logo.webp</gamelistLogo>
+        <systemControllerTint>true</systemControllerTint>
+    </variables>
+</theme>

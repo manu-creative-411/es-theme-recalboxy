@@ -71,6 +71,10 @@
           <path>${systemControllerImage}</path>
           <zIndex>10</zIndex>
         </image>
+        <!-- White line-art controllers (from Carbon): tinted with the palette's text color -->
+        <image name="controller" extra="true" if="${systemControllerTint} == 'true'">
+          <color>${systemInfoTextColor}</color>
+        </image>
         <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="true">
           <fontPath>${semiBoldFont}</fontPath>
           <alignment>left</alignment>
@@ -131,7 +135,7 @@
         </image>
         <image name="logo">
           <origin>1 1</origin>
-          <path>${systemLogo}</path>
+          <path>${gamelistLogo}</path>
           <zIndex>50</zIndex>
         </image>
         <text name="logoText">

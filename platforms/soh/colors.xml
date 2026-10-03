@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/soh/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/soh/images/logo.webp</gamelistLogo>
+    </variables>
+    <variables if="${logoVariantSystem} == 'white'">
+        <systemLogo>./platforms/soh/images/logo-w.webp</systemLogo>
+    </variables>
+    <variables if="${logoVariantGamelist} == 'white'">
+        <gamelistLogo>./platforms/soh/images/logo-w.webp</gamelistLogo>
+    </variables>
+</theme>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/devilutionx/images/logo.png</systemLogo>
+        <gamelistLogo>./platforms/devilutionx/images/logo.png</gamelistLogo>
+        <systemConsoleImage>./platforms/devilutionx/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
+    </variables>
+</theme>

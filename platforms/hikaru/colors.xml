@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/hikaru/images/consolegame.webp</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
+    </variables>
+</theme>

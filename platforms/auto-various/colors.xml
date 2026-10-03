@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <variables>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemLogo>./platforms/auto-various/images/logo.webp</systemLogo>
+        <gamelistLogo>./platforms/auto-various/images/logo.webp</gamelistLogo>
+    </variables>
+</theme>

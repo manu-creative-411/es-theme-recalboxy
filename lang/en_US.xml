@@ -46,8 +46,10 @@
         <subsetRatingIcons>Rating icons</subsetRatingIcons>
         <langRatingSystem>Per platform</langRatingSystem>
         <langRatingStandard>Standard</langRatingStandard>
-        <subsetSvgLogos>Use Vector Graphics for Logos</subsetSvgLogos>
-        <langYes>Yes</langYes>
-        <langNo>No</langNo>
+        <subsetRegion>Region</subsetRegion>
+        <langRegionEU>Europe / World</langRegionEU>
+        <langRegionUS>USA</langRegionUS>
+        <langRegionJP>Japan</langRegionJP>
+        <langRegionBR>Brazil</langRegionBR>
     </variables>
 </theme>

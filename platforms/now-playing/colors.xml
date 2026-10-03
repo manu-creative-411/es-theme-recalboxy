@@ -6,6 +6,7 @@
         <band3>F2F2F2</band3>
         <band4>0E1A3F</band4>
         <systemLogo>./platforms/now-playing/images/logo.png</systemLogo>
+        <gamelistLogo>./platforms/now-playing/images/logo.png</gamelistLogo>
         <systemControllerImage>./platforms/now-playing/images/controller.png</systemControllerImage>
     </variables>
 </theme>

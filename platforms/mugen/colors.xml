@@ -5,5 +5,8 @@
         <band2>E5F5FE</band2>
         <band3>FFFFFF</band3>
         <band4>A1B6E7</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemConsoleImage>./platforms/mugen/images/consolegame.png</systemConsoleImage>
+        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

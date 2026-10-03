@@ -5,5 +5,7 @@
         <band2>C23435</band2>
         <band3>D17733</band3>
         <band4>E9E439</band4>
+        <!-- Assets taken from Carbon (see CREDITS.md) -->
+        <systemControllerImage>./platforms/spectravideo/images/controller.webp</systemControllerImage>
     </variables>
 </theme>
