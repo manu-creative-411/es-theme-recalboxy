@@ -7,6 +7,5 @@
         <band4>945336</band4>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/gmaster/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

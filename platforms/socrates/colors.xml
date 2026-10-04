@@ -3,7 +3,6 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/socrates/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>F26B21</band1>
         <band2>1E5FA8</band2>
         <band3>E8E8E8</band3>

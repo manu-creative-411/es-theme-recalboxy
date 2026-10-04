@@ -7,6 +7,5 @@
         <band4>E07F4C</band4>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/gamate/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

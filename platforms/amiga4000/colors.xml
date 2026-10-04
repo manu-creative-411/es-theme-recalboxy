@@ -3,7 +3,6 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/amiga4000/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>E1001A</band1>
         <band2>262626</band2>
         <band3>B7B7B7</band3>

@@ -3,7 +3,6 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/advision/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>C8102E</band1>
         <band2>1D3C8F</band2>
         <band3>F2F2F2</band3>

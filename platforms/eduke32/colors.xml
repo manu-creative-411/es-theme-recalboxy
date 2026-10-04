@@ -3,7 +3,6 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/eduke32/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>B3121C</band1>
         <band2>1A1A1A</band2>
         <band3>F2C230</band3>

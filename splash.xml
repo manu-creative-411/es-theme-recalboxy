@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Recalboxy splash screen: the loading / refresh screen of EmulationStation.
+    ES reads this file from the theme root (it is not included from theme.xml).
+
+    The image shown is chosen in the theme options (subset "splash") and lives
+    in ./splash/<name>.svg or ./splash/<name>.png (1920x1080). When both exist
+    the SVG wins: ES ignores a <path> whose file does not exist, so declaring
+    the PNG first and the SVG after only lets the SVG override when it is there.
+    <backgroundColor> fills any letterboxing on screens that are not 16:9 and
+    matches each image's edge color.
+-->
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <!-- Default choice. Needed here: with no value chosen and no default known,
+         ES treats every ifSubset below as true and the last block would win -->
+    <subset name="splash">
+        <include name="recalbox"/>
+    </subset>
+
+    <!-- Variables for the default (Recalbox); the blocks below override them -->
+    <variables>
+        <splashName>recalbox</splashName>
+        <splashBg>17181CFF</splashBg>
+        <splashBar>D8232AFF</splashBar>
+        <splashBarEnd>7A0E12FF</splashBarEnd>
+    </variables>
+
+    <!-- Chosen in the theme options -->
+    <variables ifSubset="splash:batocera">
+        <splashName>batocera</splashName>
+        <splashBg>0E0F2CFF</splashBg>
+        <splashBar>8B5CFFFF</splashBar>
+        <splashBarEnd>2FD3FFFF</splashBarEnd>
+    </variables>
+    <variables ifSubset="splash:batocera-old">
+        <splashName>batocera-old</splashName>
+        <splashBg>0A2F66FF</splashBg>
+        <splashBar>9FD0FFFF</splashBar>
+        <splashBarEnd>3C8CFFFF</splashBarEnd>
+    </variables>
+    <variables ifSubset="splash:knulli">
+        <splashName>knulli</splashName>
+        <splashBg>091B26FF</splashBg>
+        <splashBar>1FD1B0FF</splashBar>
+        <splashBarEnd>0F7A66FF</splashBarEnd>
+    </variables>
+    <variables ifSubset="splash:emuelec">
+        <splashName>emuelec</splashName>
+        <splashBg>0E141BFF</splashBg>
+        <splashBar>FF7A00FF</splashBar>
+        <splashBarEnd>FFC14DFF</splashBarEnd>
+    </variables>
+    <variables ifSubset="splash:retrobat">
+        <splashName>retrobat</splashName>
+        <splashBg>150D28FF</splashBg>
+        <splashBar>FF5CE1FF</splashBar>
+        <splashBarEnd>9B5CFFFF</splashBarEnd>
+    </variables>
+    <variables ifSubset="splash:retrobox">
+        <splashName>retrobox</splashName>
+        <splashBg>08111FFF</splashBg>
+        <splashBar>4FD8FFFF</splashBar>
+        <splashBarEnd>2268D8FF</splashBarEnd>
+    </variables>
+    <variables ifSubset="splash:none">
+        <splashName>none</splashName>
+        <splashBg>22303EFF</splashBg>
+        <splashBar>8FB4DAFF</splashBar>
+        <splashBarEnd>5F85ACFF</splashBarEnd>
+    </variables>
+
+    <view name="splash">
+        <splash name="splash">
+            <backgroundColor>${splashBg}</backgroundColor>
+        </splash>
+        <!-- PNG first, SVG second: the SVG replaces the PNG only if it exists -->
+        <image name="background">
+            <path>./splash/${splashName}.png</path>
+        </image>
+        <image name="background">
+            <path>./splash/${splashName}.svg</path>
+        </image>
+        <!-- Progress bar in the accent color of the chosen image -->
+        <image name="progressbar:active">
+            <color>${splashBar}</color>
+            <colorEnd>${splashBarEnd}</colorEnd>
+            <gradientType>horizontal</gradientType>
+        </image>
+    </view>
+</theme>

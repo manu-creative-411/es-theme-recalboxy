@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Recalboxy game launch screen: shown while a game starts (ES: Splash with a bound game).
+    ES reads this file from the theme root (it is not included from theme.xml).
+
+    * Games WITH a scraped image: ES shows that image (rounded, centered) over a flat dark
+      variant of the selected color set's background color (dark even on light palettes),
+      with the game name underneath.
+    * Games WITHOUT an image: ES would show its own logo. Here that default image is hidden
+      and the image of the chosen distribution (subset "splash") is shown full screen
+      instead, with the game name underneath.
+
+    The image lives in ./splash/<name>.svg or ./splash/<name>.png (the same files as the
+    loading splash). When both exist the SVG wins: ES ignores a <path> whose file does not
+    exist, so the PNG is declared first and the SVG after.
+    Bindings ({game:image}) are used only in <visible>, where ES evaluates them per game;
+    a static <path> is used for the artwork because ES does not resolve "./" inside
+    expressions such as firstfile().
+-->
+<theme>
+    <formatVersion>7</formatVersion>
+
+    <!-- Defaults. Needed here: with no value chosen and no default known, ES treats every
+         ifSubset below as true and the last block would win -->
+    <subset name="splash">
+        <include name="recalbox"/>
+    </subset>
+    <!-- Color set (declared by theme.xml): only its choice is read here, to pick the dark background
+         of games with a scraped image. The first one (slate) is the default -->
+    <subset name="colorset">
+        <include name="slate"/>
+        <include name="default"/>
+        <include name="darker"/>
+        <include name="blackandwhite"/>
+        <include name="whiteandblack"/>
+        <include name="blue"/>
+        <include name="green"/>
+        <include name="grey"/>
+        <include name="orange"/>
+        <include name="pink"/>
+        <include name="purple"/>
+        <include name="gamecube"/>
+        <include name="red"/>
+        <include name="yellow"/>
+    </subset>
+
+    <!-- Variables for the default (Recalbox); the blocks below override them -->
+    <variables>
+        <gsName>recalbox</gsName>
+        <gsBg>17181CFF</gsBg>
+    </variables>
+
+    <!-- Dark variant of each color set backgroundColor (lightness x0.35, at most 16 percent; saturation at most 75 percent) -->
+    <variables>
+        <splashGameBg>131A21</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:default">
+        <splashGameBg>272727</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:darker">
+        <splashGameBg>0E0E0E</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:blackandwhite">
+        <splashGameBg>292929</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:whiteandblack">
+        <splashGameBg>000000</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:blue">
+        <splashGameBg>0A3347</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:green">
+        <splashGameBg>0A471C</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:grey">
+        <splashGameBg>151515</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:orange">
+        <splashGameBg>47290A</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:pink">
+        <splashGameBg>401223</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:purple">
+        <splashGameBg>320D44</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:gamecube">
+        <splashGameBg>0D1129</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:red">
+        <splashGameBg>470B0F</splashGameBg>
+    </variables>
+    <variables ifSubset="colorset:yellow">
+        <splashGameBg>47460A</splashGameBg>
+    </variables>
+
+    <!-- Same image as the loading splash (the distribution chosen in the theme options) -->
+    <variables ifSubset="splash:batocera">
+        <gsName>batocera</gsName>
+        <gsBg>0E0F2CFF</gsBg>
+    </variables>
+    <variables ifSubset="splash:batocera-old">
+        <gsName>batocera-old</gsName>
+        <gsBg>0A2F66FF</gsBg>
+    </variables>
+    <variables ifSubset="splash:knulli">
+        <gsName>knulli</gsName>
+        <gsBg>091B26FF</gsBg>
+    </variables>
+    <variables ifSubset="splash:emuelec">
+        <gsName>emuelec</gsName>
+        <gsBg>0E141BFF</gsBg>
+    </variables>
+    <variables ifSubset="splash:retrobat">
+        <gsName>retrobat</gsName>
+        <gsBg>150D28FF</gsBg>
+    </variables>
+    <variables ifSubset="splash:retrobox">
+        <gsName>retrobox</gsName>
+        <gsBg>08111FFF</gsBg>
+    </variables>
+    <variables ifSubset="splash:none">
+        <gsName>none</gsName>
+        <gsBg>22303EFF</gsBg>
+    </variables>
+
+    <view name="splash">
+        <splash name="splash">
+            <backgroundColor>${gsBg}</backgroundColor>
+        </splash>
+
+        <!-- ES default image (the game image, or ES's own logo when there is none):
+             shown only when the game really has an image -->
+        <image name="background">
+            <visible>exists({game:image})</visible>
+        </image>
+
+        <!-- Games with a scraped image: flat dark variant of the color set background color,
+             full screen, below ES's own image -->
+        <image name="gs_scraped_bg" extra="true">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./core/images/solid.png</path>
+            <color>${splashGameBg}</color>
+            <zIndex>-1</zIndex>
+            <visible>exists({game:image})</visible>
+        </image>
+
+        <!-- Artwork for games without an image: PNG first, SVG second (SVG wins if present) -->
+        <image name="gs_unscraped" extra="true">
+            <origin>0.5 0.5</origin>
+            <pos>0.5 0.5</pos>
+            <maxSize>1 1</maxSize>
+            <zIndex>1</zIndex>
+            <visible>exists({game:image}) == 0</visible>
+            <path>./splash/${gsName}.png</path>
+        </image>
+        <image name="gs_unscraped" extra="true">
+            <path>./splash/${gsName}.svg</path>
+        </image>
+    </view>
+</theme>

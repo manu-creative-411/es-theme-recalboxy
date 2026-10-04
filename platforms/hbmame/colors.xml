@@ -3,7 +3,6 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/hbmame/images/consolegame.png</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>4CAF50</band1>
         <band2>1A1A1A</band2>
         <band3>F2F2F2</band3>

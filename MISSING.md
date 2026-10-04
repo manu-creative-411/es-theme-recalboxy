@@ -43,8 +43,7 @@
 
 Platforms added or completed from Carbon (see `CREDITS.md`) only got what Carbon has: a logo
 (`logo.svg`, `logo-w.svg`, or a raster `logo.webp` where Carbon has no vector one), a console picture
-(raster, `consolegame.webp`/`.png`) and a controller (`controller.svg`: white line-art, tinted with the
-palette's text color through `systemControllerTint`). Carbon has no technical data or band colors, so
+(raster, `consolegame.webp`/`.png`) and a controller (`controller.svg`: white line-art, shown untinted). Carbon has no technical data or band colors, so
 those were written for Recalboxy afterwards: every platform folder now has its own `colors.xml` bands
 and `systeminfo.xml` (see `CREDITS.md`).
 

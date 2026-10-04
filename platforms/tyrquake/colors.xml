@@ -5,7 +5,6 @@
         <systemLogo>./platforms/tyrquake/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/tyrquake/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/tyrquake/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>7A5230</band1>
         <band2>1A1A1A</band2>
         <band3>E8E8E8</band3>

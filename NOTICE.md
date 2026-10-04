@@ -48,3 +48,10 @@ also distributed in the music folder of recalbox-next.
 ## 4. Logos and trademarks
 
 Logos and trademarks belong to their respective owners (see `LICENSE`).
+
+The images in `splash/` are original wordmark compositions made for Recalboxy.
+They only use the names of the distributions (Recalbox, Batocera, Knulli,
+EmuELEC, RetroBat, Retrobox), which belong to their respective owners; they are
+not the official logos and imply no endorsement. `splash/none.svg` is the generic
+image (the theme's own name, "recalboxy"). The same images are reused by
+`gamesplash.xml`. They are covered by the theme's license (section 1).

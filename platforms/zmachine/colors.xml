@@ -2,7 +2,6 @@
 <theme>
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
-        <systemControllerTint>true</systemControllerTint>
         <band1>1A1A1A</band1>
         <band2>F2F2F2</band2>
         <band3>B3121C</band3>

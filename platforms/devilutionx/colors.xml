@@ -5,7 +5,6 @@
         <systemLogo>./platforms/devilutionx/images/logo.png</systemLogo>
         <gamelistLogo>./platforms/devilutionx/images/logo.png</gamelistLogo>
         <systemConsoleImage>./platforms/devilutionx/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>7A1F1F</band1>
         <band2>1A1A1A</band2>
         <band3>D9C6A0</band3>

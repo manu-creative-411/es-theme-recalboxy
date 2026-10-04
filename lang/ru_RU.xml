@@ -11,6 +11,7 @@
         <subsetColorset>Color set</subsetColorset>
         <subsetFontSize>Font size</subsetFontSize>
         <subsetSystemInfo>System info</subsetSystemInfo>
+        <langSplashNone>Тема (общий)</langSplashNone>
         <langMedium>Medium</langMedium>
         <langLarge>Large</langLarge>
         <langShow>Show</langShow>

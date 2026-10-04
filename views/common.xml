@@ -40,6 +40,8 @@
         <carousel name="systemcarousel">
           <type>horizontal</type>
           <color>${systemCarouselColor}</color>
+          <!-- Used when UI settings > Transition style is "Auto"; a style chosen there wins -->
+          <defaultTransition>fade &amp; slide</defaultTransition>
           <minLogoOpacity>0.5</minLogoOpacity>
           <logoAlignment>center</logoAlignment>
           <scrollSound>./core/sounds/systembrowse.wav</scrollSound>
@@ -70,10 +72,6 @@
           <origin>1 1</origin>
           <path>${systemControllerImage}</path>
           <zIndex>10</zIndex>
-        </image>
-        <!-- White line-art controllers (from Carbon): tinted with the palette's text color -->
-        <image name="controller" extra="true" if="${systemControllerTint} == 'true'">
-          <color>${systemInfoTextColor}</color>
         </image>
         <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="true">
           <fontPath>${semiBoldFont}</fontPath>

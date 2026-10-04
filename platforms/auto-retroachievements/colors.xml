@@ -5,7 +5,6 @@
         <systemLogo>./platforms/auto-retroachievements/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-retroachievements/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/auto-retroachievements/images/consolegame.png</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>F2C230</band1>
         <band2>1A1A1A</band2>
         <band3>F2F2F2</band3>

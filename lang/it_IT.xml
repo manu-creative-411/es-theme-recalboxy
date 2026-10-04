@@ -11,6 +11,8 @@
         <subsetColorset>Schema colori</subsetColorset>
         <subsetFontSize>Dimensione carattere</subsetFontSize>
         <subsetSystemInfo>Info sistema</subsetSystemInfo>
+        <subsetDistro>Distribuzione</subsetDistro>
+        <langSplashNone>Tema (generica)</langSplashNone>
         <langMedium>Media</langMedium>
         <langLarge>Grande</langLarge>
         <langShow>Mostra</langShow>

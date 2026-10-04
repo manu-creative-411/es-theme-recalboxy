@@ -11,6 +11,8 @@
         <subsetColorset>Color set</subsetColorset>
         <subsetFontSize>Font size</subsetFontSize>
         <subsetSystemInfo>System info</subsetSystemInfo>
+        <subsetDistro>Distribuție</subsetDistro>
+        <langSplashNone>Temă (generic)</langSplashNone>
         <langMedium>Medium</langMedium>
         <langLarge>Large</langLarge>
         <langShow>Show</langShow>

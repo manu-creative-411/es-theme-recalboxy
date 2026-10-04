@@ -3,7 +3,6 @@
     <variables>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/cgenius/images/consolegame.png</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>4CAF50</band1>
         <band2>1E4E8C</band2>
         <band3>F2F2F2</band3>

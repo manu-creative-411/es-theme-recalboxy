@@ -4,7 +4,6 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/spinner/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/spinner/images/logo.webp</gamelistLogo>
-        <systemControllerTint>true</systemControllerTint>
         <band1>2AB5C9</band1>
         <band2>E8302B</band2>
         <band3>F2F2F2</band3>

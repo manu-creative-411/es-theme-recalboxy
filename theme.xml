@@ -24,9 +24,6 @@
              band, the gamelist header logo sits on the palette background. -->
         <logoVariantSystem>normal</logoVariantSystem>
         <logoVariantGamelist>normal</logoVariantGamelist>
-        <!-- "true" (set in platforms/<system>/colors.xml) for the white line-art controllers taken from
-             Carbon: they are tinted with the palette's info text color so they show on every palette -->
-        <systemControllerTint>false</systemControllerTint>
         <!-- Default band colors for systems without their own colors.xml -->
         <band1>F6DD08</band1>
         <band2>800000</band2>
@@ -87,6 +84,17 @@
     <subset name="systeminfo" displayName="${subsetSystemInfo}">
         <include name="show" displayName="${langShow}"/>
         <include name="hide" displayName="${langHide}"/>
+    </subset>
+    <!-- Distribution: image of the loading screen (splash.xml) and of the game launch screen without a scraped image (gamesplash.xml); images in ./splash/ -->
+    <subset name="splash" displayName="${subsetDistro}">
+        <include name="recalbox" displayName="Recalbox"/>
+        <include name="batocera" displayName="Batocera"/>
+        <include name="batocera-old" displayName="Batocera (old)"/>
+        <include name="knulli" displayName="Knulli"/>
+        <include name="emuelec" displayName="EmuELEC"/>
+        <include name="retrobat" displayName="RetroBat"/>
+        <include name="retrobox" displayName="Retrobox"/>
+        <include name="none" displayName="${langSplashNone}"/>
     </subset>
 
     <!-- Region: picks the regional artwork (platforms/<system>/images/<region>/) where a platform has it -->

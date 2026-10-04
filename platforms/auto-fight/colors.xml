@@ -4,7 +4,6 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-fight/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-fight/images/logo.webp</gamelistLogo>
-        <systemControllerTint>true</systemControllerTint>
         <band1>B3121C</band1>
         <band2>F2A900</band2>
         <band3>F2F2F2</band3>

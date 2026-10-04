@@ -19,6 +19,7 @@ options under *Theme Configuration*.
 | Color set (`colorset`) | Slate (default) / Standard / Darker / Black and white / White and black / Blue / Green / Grey / Orange / Pink / Purple / GameCube / Red / Yellow | Recalbox palettes (`colors/*.xml`; `GameCube` is our own: white text on indigo `#243075`), replacing Dark/Light |
 | Font size (`fontsize`) | Medium (default) / Large | `fontSize` medium / large |
 | System info (`systeminfo`) | Show (default) / Hide | (new) the 10 lines of technical data for each platform |
+| Distribution (`splash`) | Recalbox (default) / Batocera / Batocera (old) / Knulli / EmuELEC / RetroBat / Retrobox / Theme (generic) | (new) image of the loading / refresh screen (`splash.xml`) and of the game launch screen for games without a scraped image (`gamesplash.xml`); images in `splash/` |
 | Help icons (`helpicons`) | Default (Batocera) / Xbox / PlayStation / SNES / Generic 4, 6 and 8 buttons / SNES alt / Xbox One / Arcade | (new) icons for the bottom help bar; assets in `help/icons/` |
 | System list (`systemview`) | Horizontal (default) / Vertical (left) | Recalbox's *vertical left* system view (`views/system-vertical.xml`); landscape 16:9 and 4:3 screens only |
 | Rating icons (`ratingicons`) | Per platform (default) / Standard | each console's own icons instead of stars (`platforms/<platform>/rating.xml` + `images/rating_*.svg`) |
@@ -61,7 +62,11 @@ On every palette the clock, indicators and help bar take their color from the
 ### System list selector
 
 The vertical system list selector (`systemSelectorColor`) is a lighter shade of
-the `backgroundColor` on dark palettes and a darker shade on light palettes.
+the `backgroundColor` on dark palettes and a darker shade on light palettes. The SVG itself
+is drawn at 50 % opacity (was 30 %), so the tint reads more clearly on every palette.
+The selector is an `extra` (one copy per system), so it moves with the transition when the system
+changes. The carousel sets `defaultTransition` to *fade & slide* (`views/common.xml`), which softens that
+movement; it applies when *UI settings → Transition style* is on *Auto*, and a style chosen there wins.
 
 The palettes come from Recalbox; the carousel, game counter, rating and dimmed
 values do not exist in Recalbox and are derived (see the header of each
@@ -280,12 +285,48 @@ had was replaced; existing files and settings are untouched):
   Carbon only has raster console pictures, so they are `.webp` (or `.png`) next to the vector ones of the other platforms;
   where a raster file is used, the platform's `colors.xml` points to it (`systemConsoleImage`, `systemControllerImage`,
   `systemLogo`/`gamelistLogo`), the same way the artwork added for `emuconfig` or `pcgames` does.
-* Carbon's controllers are **white line-art** drawings. So they are readable on every palette, platforms that use one set
-  `systemControllerTint` to `true` and the theme tints the controller with the palette's info text color
-  (`views/common.xml`). Full-color controllers from Recalboxy/Recalbox are never tinted.
+* Carbon's controllers are **white line-art** drawings. Controllers are never tinted (the old
+  `systemControllerTint` option was removed), so they are shown exactly as drawn on every palette.
 
 Raster images added from Carbon were converted from PNG to WebP (lossless for logos) to keep the theme small.
 The list of Carbon files that were deliberately left out is at the end of `MISSING.md`.
+
+## Distribution (splash and game launch screens)
+
+Two screens are themed, each with its own file read by ES from the theme root, and
+both follow the single *Distribution* option and use the images in `splash/`:
+
+| Screen | File | Shown |
+|---|---|---|
+| Loading / refresh | `splash.xml` | the next time the splash appears, for example after restarting ES |
+| Game launch | `gamesplash.xml` | every time a game starts |
+
+* Images: `splash/<name>.svg` or `splash/<name>.png`, 1920x1080, where `<name>` is
+  `recalbox`, `batocera`, `batocera-old`, `knulli`, `emuelec`, `retrobat`,
+  `retrobox` or `none` (the generic image of the theme). If both `xxx.svg` and
+  `xxx.png` exist, the **SVG is used**. (ES ignores a `<path>` to a missing file, so
+  the XML files declare the PNG first and the SVG after.)
+* **Game launch screen:** a game with a scraped image keeps ES's usual launch screen
+  (its image, rounded and centered, with the game name underneath), over a flat **dark
+  variant of the selected color set's background color** (dark even on light palettes:
+  lightness x0.35, at most 16 percent; the values are the `splashGameBg` blocks in
+  `gamesplash.xml`, one per palette, drawn with `core/images/solid.png`). A game **without**
+  an image would get ES's own logo; the theme hides it and shows the *Distribution* image
+  full screen instead, with the game name underneath, over the distribution's background color.
+  Batocera's documentation lists the game launch screen as x86_64-only.
+* Each option also sets the background color (it fills the bars on screens that
+  are not 16:9). On the loading splash it also tints the progress bar with the
+  image's accent color.
+* To use your own art, drop a file with the same name next to the shipped one
+  (an SVG takes priority; delete it to use your PNG).
+* To add a distribution: put `splash/<name>.svg`, add an `<include>` to the
+  `splash` subset in `theme.xml` and a `<variables ifSubset="splash:<name>">` block
+  to each of `splash.xml` and `gamesplash.xml`.
+* Keep the bottom fifth of the image free: ES writes the status text at 83 % of the
+  height (86 % on the game launch screen) and the progress bar at 89-93 %.
+* SVG limits (ES uses nanosvg): no `<text>` (convert text to paths), no filters,
+  masks, clip paths or CSS; write gradient coordinates as percentages.
+* The shipped images are original wordmark designs, not the official logos.
 
 ## Background music
 
@@ -308,7 +349,7 @@ is used while the theme is active.
 
 ```
 es-theme-recalboxy/
-├── theme.xml
+├── theme.xml  splash.xml  gamesplash.xml  splash/ (<distribution>.svg|png, 1920x1080)
 ├── platforms/<system.theme>/   images/ (+ us/ jp/ br/), colors.xml, systeminfo.xml, rating.xml, logo-w.xml, region-us|jp|br.xml
 ├── core/ (fonts, images, sounds, music)  colors/  help/  lang/  layouts/  views/  tools/   (tools: update-dark-logos.sh, update-regions.sh)
 ├── LICENSE  NOTICE.md  CREDITS.md  THIRD-PARTY-ASSETS.txt  MISSING.md

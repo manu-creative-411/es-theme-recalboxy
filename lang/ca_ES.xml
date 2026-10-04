@@ -11,6 +11,8 @@
         <subsetColorset>Esquema de color</subsetColorset>
         <subsetFontSize>Mida de la font</subsetFontSize>
         <subsetSystemInfo>Info del sistema</subsetSystemInfo>
+        <subsetDistro>Distribució</subsetDistro>
+        <langSplashNone>Tema (genèric)</langSplashNone>
         <langMedium>Mitjana</langMedium>
         <langLarge>Gran</langLarge>
         <langShow>Mostra</langShow>

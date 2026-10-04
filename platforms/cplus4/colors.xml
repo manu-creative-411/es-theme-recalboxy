@@ -7,6 +7,5 @@
         <band4>F8B621</band4>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemConsoleImage>./platforms/cplus4/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>

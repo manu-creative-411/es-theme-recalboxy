@@ -4,7 +4,6 @@
         <!-- Assets taken from Carbon (see CREDITS.md) -->
         <systemLogo>./platforms/auto-action/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/auto-action/images/logo.webp</gamelistLogo>
-        <systemControllerTint>true</systemControllerTint>
         <band1>E8302B</band1>
         <band2>F2A900</band2>
         <band3>F2F2F2</band3>

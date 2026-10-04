@@ -5,7 +5,6 @@
         <systemLogo>./platforms/apfm1000/images/logo.webp</systemLogo>
         <gamelistLogo>./platforms/apfm1000/images/logo.webp</gamelistLogo>
         <systemConsoleImage>./platforms/apfm1000/images/consolegame.webp</systemConsoleImage>
-        <systemControllerTint>true</systemControllerTint>
         <band1>C9302C</band1>
         <band2>2459A6</band2>
         <band3>EDEDED</band3>

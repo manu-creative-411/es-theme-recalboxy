@@ -6,6 +6,5 @@
         <band3>CE2027</band3>
         <band4>0F7C3E</band4>
         <!-- Assets taken from Carbon (see CREDITS.md) -->
-        <systemControllerTint>true</systemControllerTint>
     </variables>
 </theme>
